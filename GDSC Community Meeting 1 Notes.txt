@@ -1,0 +1,10 @@
+Notes for Meeting 1 GDSC Community Project with Prof Bahar
+
+- Have design document available based on the deadline decided by Ethan
+- Have poster design ready for December for Student Showcase
+- Ethan ---> Project Manager
+- Grading criteria for the overall project yet to be decided
+- After design phase, have sprint meeting
+- Have the sprint timelines ready for next week (detailed distribution of tests for the design phase, and dates
+of sprint meeting)
+- Waiting for Jira Setup
