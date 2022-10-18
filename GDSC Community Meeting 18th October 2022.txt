@@ -1,0 +1,14 @@
+GDSC Meeting notes
+
+Presentation - Can be anything i.e. pptx, google doc
+
+- What the goals for the next sprint on jira are
+
+- Idea for the miletones for the rest of the project
+
+- Intended audience: Manager i.e. technical presentation
+
+- Design Presentation being proceeded with the assumption that we have access to the UofT Index API.
+
+- Look into csv timetable format and work on the algorithm
+
