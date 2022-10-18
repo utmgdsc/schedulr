@@ -3,7 +3,7 @@ Meeting notes - 11th october 2022
 - trying to get access to uoft timetable api, hopefully by the end of the week
 - discuss algorithm for scheduling
 - discuss contents on the design document
-- try finishing design document by oct 28
+- try finishing design document by oct 21
 - start prepping for the presentation
 - hope to start planning sprints after the design document 
 
