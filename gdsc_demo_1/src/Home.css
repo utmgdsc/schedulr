@@ -1,0 +1,27 @@
+.Home{
+    background-color: #172C5A;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+footer{
+
+    margin-top: auto;
+}
+.profile-button{
+    margin-right: 0px;
+}
+
+.header{
+    margin-right: 10px;
+    text-align: right;
+    color: white;
+}
