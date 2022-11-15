@@ -31,6 +31,7 @@ dotenv_path = Path(BASE_DIR, '.env')
 dotenv.load_dotenv(dotenv_path=dotenv_path)
 
 SECRET_KEY = dotenv.get_key(dotenv_path, 'SECRET_KEY')
+azure_password = dotenv.get_key(dotenv_path, 'AZURE_PASSWORD')
 #password for razee: TestingPassword123
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -142,7 +143,18 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+       'NAME': BASE_DIR / 'db.sqlite3',
+    },
+    'schedules': {
+        'ENGINE': 'sql_server.pyodbc',
+         'NAME': 'Backend',
+         'HOST': 'brschedulr.database.windows.net',
+         'USER': 'Django',
+         'PASSWORD': azure_password,
+         'PORT': 1433,
+         'OPTIONS': {
+            'driver': 'ODBC Driver 18 for SQL Server',
+    }
     }
 }
 
