@@ -145,17 +145,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
        'NAME': BASE_DIR / 'db.sqlite3',
     },
-    'schedules': {
-        'ENGINE': 'sql_server.pyodbc',
-         'NAME': 'Backend',
-         'HOST': 'brschedulr.database.windows.net',
-         'USER': 'Django',
-         'PASSWORD': azure_password,
-         'PORT': 1433,
-         'OPTIONS': {
-            'driver': 'ODBC Driver 18 for SQL Server',
-    }
-    }
+    
 }
 
 
