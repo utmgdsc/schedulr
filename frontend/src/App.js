@@ -16,7 +16,9 @@ function App() {
     <Header />
 
         <Routes>
-          <Route element= {<PrivateRoute><HomePage/></PrivateRoute>} path="/" exact/>
+          {/* commented for debugging */}
+          {/* <Route element= {<PrivateRoute><HomePage/></PrivateRoute>} path="/" exact/> */}
+          <Route element= {<HomePage/>} path="/" exact/>
           <Route element={ <LoginPage />} path="/login"/>
         </Routes>
 </AuthProvider>

@@ -1,6 +1,11 @@
 import React, {useState, useEffect, useContext} from 'react'
 import AuthContext from '../context/AuthContext';
 
+import './HomePage.css'
+import NavBar from '../components/nav-bar.js'
+import Footer from '../components/footer.js'
+import Calendar from '../components/calendar.js'
+
 
 const HomePage = () => {
   let [note, setNotes] = useState([]);
@@ -30,15 +35,43 @@ getNotes();
   
 
 }
-
+ //razeen's prev code
+  // return (
+  //   <div>
+  //      <ul>
+  //       {note.map(note => (
+  //         <li key={note.id}>{note.body}</li>
+  //       ))}
+  //       </ul>
+  //   </div>
+  // )
   return (
-    <div>
-       <ul>
-        {note.map(note => (
-          <li key={note.id}>{note.body}</li>
-        ))}
-        </ul>
+    <div className='Home'>
+      
+    <NavBar></NavBar>
+    
+    <div className='main-section'>
+      <div className='header'>
+        Last Name, First Name
+
+
+
+      </div>
+      
+      <div className='calendar'>
+
+
+      </div>
+
+      
+      <Footer>
+
+      </Footer>
     </div>
+    
+    </div>
+
+
   )
 }
 
