@@ -8,6 +8,8 @@ from rest_framework_simplejwt.views import TokenObtainPairView
 
 from .serializers import NoteSerializer
 from base.models import Note
+from base.models import Tcourse
+from .serializers import TcourseSerializer
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     @classmethod
@@ -47,3 +49,12 @@ def getNotes(request):
     serializer = NoteSerializer(notes, many=True)
     
     return Response(serializer.data)
+
+@api_view(['GET'])
+def getTcourses(request):
+
+    #return Response('Hello')
+    tcourses = Tcourse.objects.all(
+    ).order_by('-course_id')
+
+    return Response(TcourseSerializer(tcourses, many=True).data)

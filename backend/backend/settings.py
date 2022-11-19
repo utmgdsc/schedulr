@@ -32,6 +32,10 @@ dotenv.load_dotenv(dotenv_path=dotenv_path)
 
 SECRET_KEY = dotenv.get_key(dotenv_path, 'SECRET_KEY')
 azure_password = dotenv.get_key(dotenv_path, 'AZURE_PASS')
+azure_user = dotenv.get_key(dotenv_path, 'AZURE_USER')
+azure_name = dotenv.get_key(dotenv_path, 'AZURE_NAME')
+azure_port = dotenv.get_key(dotenv_path, 'AZURE_PORT')
+azure_host = dotenv.get_key(dotenv_path, 'AZURE_HOST')
 #password for razee: TestingPassword123
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -141,11 +145,19 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-       'NAME': BASE_DIR / 'db.sqlite3',
-    },
-    
+        'ENGINE': 'mssql',
+         'NAME': azure_name,
+         'HOST': azure_host,
+         'USER': azure_user,
+         'PASSWORD': azure_password,
+         'PORT': int(azure_port),
+         'OPTIONS': {
+            'driver': 'ODBC Driver 18 for SQL Server',
+            'unicode_results': True
+    }
+    }
 }
 
 
