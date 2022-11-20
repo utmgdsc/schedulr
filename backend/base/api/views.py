@@ -11,6 +11,14 @@ from base.models import Note
 from base.models import Tcourse
 from .serializers import TcourseSerializer
 
+
+
+from django.contrib.auth.models import User
+from .serializers import RegisterSerializer
+from rest_framework import generics
+from rest_framework.permissions import AllowAny
+
+
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     @classmethod
     def get_token(cls, user):
@@ -34,6 +42,8 @@ def getRoute(request):
     routes = [
         '/api/token',
         '/api/token/refresh',
+        'api/notes',
+        'api/register',
     ]
     
     return Response(routes)
@@ -58,3 +68,8 @@ def getTcourses(request):
     ).order_by('-course_id')
 
     return Response(TcourseSerializer(tcourses, many=True).data)
+
+class RegisterView(generics.CreateAPIView):
+    queryset = User.objects.all()
+    permission_classes = (AllowAny,)
+    serializer_class = RegisterSerializer

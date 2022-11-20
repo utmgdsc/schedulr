@@ -146,18 +146,10 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
 
-    'default': {
-        'ENGINE': 'mssql',
-         'NAME': azure_name,
-         'HOST': azure_host,
-         'USER': azure_user,
-         'PASSWORD': azure_password,
-         'PORT': int(azure_port),
-         'OPTIONS': {
-            'driver': 'ODBC Driver 18 for SQL Server',
-            'unicode_results': True
-    }
-    }
+     'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+       'NAME': BASE_DIR / 'db.sqlite3',
+    },
 }
 
 
