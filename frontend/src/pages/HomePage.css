@@ -2,6 +2,7 @@
     background-color: #172C5A;
     display: flex;
     flex-direction: row;
+    margin-left: 0;
 
 }
 
@@ -24,4 +25,7 @@ footer{
     margin-right: 10px;
     text-align: right;
     color: white;
+}
+body{
+    margin: 0;
 }

@@ -5,9 +5,13 @@ import './HomePage.css'
 import NavBar from '../components/nav-bar.js'
 import Footer from '../components/footer.js'
 import Calendar from '../components/calendar.js'
-
+import FullCalendar, { whenTransitionDone } from '@fullcalendar/react' // must go before plugins
+import dayGridPlugin from '@fullcalendar/daygrid' // a plugin!
+import { formatDate } from '@fullcalendar/react'
 
 const HomePage = () => {
+  
+  
   let [note, setNotes] = useState([]);
   let {authTokens, logoutUser } = useContext(AuthContext);
 
@@ -32,19 +36,10 @@ getNotes();
     logoutUser();
 
   }
-  
 
+ 
 }
- //razeen's prev code
-  // return (
-  //   <div>
-  //      <ul>
-  //       {note.map(note => (
-  //         <li key={note.id}>{note.body}</li>
-  //       ))}
-  //       </ul>
-  //   </div>
-  // )
+ 
   return (
     <div className='Home'>
       
@@ -59,8 +54,11 @@ getNotes();
       </div>
       
       <div className='calendar'>
+        <Calendar>
 
 
+        </Calendar>
+      
       </div>
 
       
@@ -74,5 +72,7 @@ getNotes();
 
   )
 }
+
+
 
 export default HomePage
