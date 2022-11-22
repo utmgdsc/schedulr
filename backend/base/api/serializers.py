@@ -91,5 +91,3 @@ class TtimeslotSerializer(ModelSerializer):
         model = Ttimeslot
         fields = '__all__'
 
-
-
