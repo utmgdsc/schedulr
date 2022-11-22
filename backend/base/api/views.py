@@ -64,7 +64,6 @@ def getNotes(request):
 
 @api_view(['GET'])
 def getTcourses(request):
-
     tcourses = Tcourse.objects.all()
     serializer = TcourseSerializer(tcourses, many=True)
     return Response(serializer.data)
