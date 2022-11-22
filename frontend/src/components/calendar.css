@@ -1,0 +1,11 @@
+.calendar{
+
+    /* color:white; */
+    background-color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}

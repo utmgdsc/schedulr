@@ -1,0 +1,31 @@
+
+.nav-bar{
+    background-color: #252631;
+    color:white;
+    width:10vw;
+    
+    height:100vh;
+
+
+}
+
+
+.logo{
+    
+    margin: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    size:10px;
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.buttons{
+    size:10px;
+    text-align: center;
+    
+    margin: 20px;
+
+}
