@@ -4,20 +4,40 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import "./calendar.css"
 import React from 'react'
 
-function Calendar(){
+// function Calendar(){
+
+
+
+//     
+        
+    
 
     
-    // let calendarRef  = React.createRef
-    // var btn = document.getElementById("month")
-    // btn.addEventListener("click", changeToMonth)
-
+//     function renderEventContent(eventInfo) {
     
+    
+//         return (
+//           <>
+//             <b>{eventInfo.timeText}</b>
+//             <i>{eventInfo.event.title}</i>
+//           </>
+//         )
+//       }
+// }
 
+
+
+  
+export default class Calendar extends React.Component{
+
+    calendarRef = React.createRef()
+
+  render() {
     return(
         <div className="calendar">
-            <button type='button' id='month'>Month</button>
+
             <FullCalendar
-            plugins={[ timeGridPlugin ]}
+            plugins={[ timeGridPlugin, dayGridPlugin ]}
             //ref= {calendarRef}
             initialView="timeGridWeek"
             slotMinTime={'08:00'}
@@ -27,40 +47,33 @@ function Calendar(){
             slotDuration={"01:00:00"}
             events={[
             { title: ' event 1', date: '2022-11-01', display: 'block', start: '2022-11-01T10:30:00' },
-            { title: 'event 2', date: '2022-11-02' },
-            { title: 'testEvent', date: '2022-11-22',display: 'block', start: '2022-11-22T09:00:00', end: '2022-11-22T11:30:00' },
+            { title: 'event 2', date: '2022-11-02' }
             ]}
+            
             displayEventTime = {true}
-            eventContent={renderEventContent}
+            headerToolbar={
+                {right: 'dayGridMonth, timeGridWeek, timeGridDay', 
+                center: 'add'    
+            }}
             height = {'auto'}
             
-            dayHeaderContent
+            //dayHeaderFormat={}
+            
             />
+            
         </div>
 
     
 
-    )
-    // function changeToMonth(){
-    //     let calendarApi = calendarRef.current.getApi()
-    //     calendarApi.next()
-    // }
-    
+            )
+  }
 
+  someMethod() {
+    let calendarApi = this.calendarRef.current.getApi()
+    calendarApi.next()
+
+    calendarApi.next()
     
-    function renderEventContent(eventInfo) {
-    
-    
-        return (
-          <>
-            <b>{eventInfo.timeText}</b>
-            <i>{eventInfo.event.title}</i>
-          </>
-        )
-      }
+  }
+
 }
-
-
-
-  
-export default Calendar

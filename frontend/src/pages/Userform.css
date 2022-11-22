@@ -1,0 +1,40 @@
+.userform{
+    background-color: #172C5A;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+   
+
+}
+.input{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    text-align: center;
+    width: 100vw;
+}
+label{
+    text-align: center;
+}
+
+
+.form-section{
+    display:flex;
+    flex-grow: 1;
+    /* justify-content: space-between; */
+    width: 100vw;
+    
+    background-color: #172C5A;
+    text-align: center;
+    color: white;
+    
+}
+footer{
+    
+
+    margin-top:auto;
+}
