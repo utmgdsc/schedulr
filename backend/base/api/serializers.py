@@ -1,6 +1,7 @@
 from rest_framework.serializers import ModelSerializer
 from base.models import Note
-from base.models import Tcourse
+from base.models import Tcourse, Tcourseevent, Tpersonalevent, Tschedule, Tstudent, Tstudentcourse, Ttimeslot
+
 
 from rest_framework import serializers
 from django.contrib.auth.models import User
@@ -56,7 +57,39 @@ class NoteSerializer(ModelSerializer):
 class TcourseSerializer(ModelSerializer):
     class Meta:
         model = Tcourse
-        fields = 'all'
+        fields = '__all__'
+
+#create a serializer for Tcourseevent, Tpersonalevent, Tschedule, Tstudent, Tstudentcourse, Ttimeslot
+
+class TcourseeventSerializer(ModelSerializer):
+    class Meta:
+        model = Tcourseevent
+        fields = '__all__'
+
+class TpersonaleventSerializer(ModelSerializer):
+    class Meta:
+        model = Tpersonalevent
+        fields = '__all__'
+        
+class TscheduleSerializer(ModelSerializer):
+    class Meta:
+        model = Tschedule
+        fields = '__all__'
+
+class TstudentSerializer(ModelSerializer):
+    class Meta:
+        model = Tstudent
+        fields = '__all__'
+
+class TstudentcourseSerializer(ModelSerializer):
+    class Meta:
+        model = Tstudentcourse
+        fields = '__all__'
+        
+class TtimeslotSerializer(ModelSerializer):
+    class Meta:
+        model = Ttimeslot
+        fields = '__all__'
 
 
 

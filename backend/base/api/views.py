@@ -63,12 +63,9 @@ def getNotes(request):
 @api_view(['GET'])
 def getTcourses(request):
 
-    #return Response('Hello')
-    tcourses = Tcourse.objects.all(
-    ).order_by('-course_id')
-
-    return Response(TcourseSerializer(tcourses, many=True).data)
-
+    tcourses = Tcourse.objects.all()
+    serializer = TcourseSerializer(tcourses, many=True)
+    return Response(serializer.data)
 class RegisterView(generics.CreateAPIView):
     queryset = User.objects.all()
     permission_classes = (AllowAny,)
