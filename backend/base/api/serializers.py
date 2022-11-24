@@ -66,6 +66,11 @@ class TcourseeventSerializer(ModelSerializer):
         model = Tcourseevent
         fields = '__all__'
 
+class TcourseckassSerializer(ModelSerializer):
+    class Meta:
+        model = Tcourseclass
+        fields = '__all__'
+
 class TpersonaleventSerializer(ModelSerializer):
     class Meta:
         model = Tpersonalevent
