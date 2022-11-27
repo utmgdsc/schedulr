@@ -77,13 +77,10 @@ def getTstudentcourse(request):
         serializer = TcourseSerializer(tstudentcourse, many=True)
         return Response(serializer.data)
 
-    # elif request.method == 'POST':
-        
-
-
-
 
 class RegisterView(generics.CreateAPIView):
     queryset = User.objects.all()
     permission_classes = (AllowAny,)
     serializer_class = RegisterSerializer
+
+    
