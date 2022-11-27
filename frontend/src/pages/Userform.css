@@ -4,9 +4,13 @@
     flex-direction: column;
     height: 100vh;
 
-   
-
+}  
+.study-days{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
 .input{
 
     display: flex;
@@ -21,7 +25,12 @@ label{
     text-align: center;
 }
 
+hr{
 
+    size:5px;
+    width: 30vw;
+    color: #FFD700;
+}
 .form-section{
     display:flex;
     flex-grow: 1;
