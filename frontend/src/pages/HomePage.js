@@ -52,14 +52,16 @@ getNotes();
     
     <div className='main-section'>
       <div className='header'>
-        {user.username}, First Name
+        {/* {user.last_name}, {user.first_name} */}
 
 
 
       </div>
       
       <div className='calendar'>
-      <Calendar></Calendar>
+        
+        
+        <Calendar></Calendar>
 
       </div>
 

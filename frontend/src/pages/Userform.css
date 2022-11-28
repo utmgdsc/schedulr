@@ -1,0 +1,49 @@
+.userform{
+    background-color: #172C5A;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}  
+.study-days{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    text-align: center;
+    width: 100vw;
+}
+label{
+    text-align: center;
+}
+
+hr{
+
+    size:5px;
+    width: 30vw;
+    color: #FFD700;
+}
+.form-section{
+    display:flex;
+    flex-grow: 1;
+    /* justify-content: space-between; */
+    width: 100vw;
+    
+    background-color: #172C5A;
+    text-align: center;
+    color: white;
+    
+}
+footer{
+    
+
+    margin-top:auto;
+}
