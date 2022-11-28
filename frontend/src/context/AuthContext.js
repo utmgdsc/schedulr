@@ -15,8 +15,24 @@ export const AuthProvider = ({children}) => {
     let [user, setUser] = useState(() => localStorage.getItem('authTokens') ? jwt_decode(localStorage.getItem('authTokens')) : null);
     let [loading, setLoading] = useState(true);
 
+    let [events, setEvents] = useState([]);
+
 
     const navigate = useNavigate();
+
+    let getEvents = async () => {
+        let respone = await fetch('http://127.0.0.1:8000/api/events/',{
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        let data = await respone.json();
+        if (respone.status === 200){
+            setEvents(data);
+            console.log(data);
+        }
+    }
 
     let registerUser = async (e ) => {
         e.preventDefault();
@@ -61,6 +77,7 @@ export const AuthProvider = ({children}) => {
              setAuthTokens(data);
              setUser(jwt_decode(data.access));
              localStorage.setItem('authTokens', JSON.stringify(data));
+             getEvents();   
              navigate('/');
          } else {
              alert('incorrect username or password');
@@ -106,6 +123,7 @@ export const AuthProvider = ({children}) => {
         loginUser: loginUser,
         logoutUser: logoutUser,
         registerUser: registerUser,
+        events: events,
 
     }
 
