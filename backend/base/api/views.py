@@ -1,3 +1,5 @@
+import os
+
 from django.http import JsonResponse
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes
@@ -10,14 +12,14 @@ from .serializers import NoteSerializer
 from base.models import Note
 from base.models import Tcourse
 from .serializers import TcourseSerializer
-
-
+from .calculateCal import generate_events
+# import mock_data.csv
+import csv
 
 from django.contrib.auth.models import User
 from .serializers import RegisterSerializer
 from rest_framework import generics
 from rest_framework.permissions import AllowAny
-
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     @classmethod
@@ -46,6 +48,7 @@ def getRoute(request):
         '/api/token/refresh',
         'api/notes',
         'api/register',
+        'api/events',
     ]
     
     return Response(routes)
@@ -72,3 +75,9 @@ class RegisterView(generics.CreateAPIView):
     queryset = User.objects.all()
     permission_classes = (AllowAny,)
     serializer_class = RegisterSerializer
+    
+    
+@api_view(['GET'])
+def getEvents(request):
+    events = generate_events(os.path.dirname(os.path.realpath(__file__)) + '\\mock_data.csv')
+    return Response(events)
