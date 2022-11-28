@@ -22,7 +22,6 @@ function App() {
           {/* <Route element= {<PrivateRoute><HomePage/></PrivateRoute>} path="/" exact/> */}
           <Route element= {<HomePage/>} path="/" exact/>
           <Route element= {<Userform/>} path ='/userform' />
-          <Route element= {<HomePage/>} path="/" exact/>
           <Route element={ <LoginPage />} path="/login"/>
           <Route element={ <RegisterPage />} path="/register"/>
         </Routes>
