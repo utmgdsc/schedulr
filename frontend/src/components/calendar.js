@@ -2,39 +2,17 @@ import FullCalendar, { whenTransitionDone } from '@fullcalendar/react' // must g
 import dayGridPlugin from '@fullcalendar/daygrid' // a plugin! 
 import timeGridPlugin from '@fullcalendar/timegrid';
 import "./calendar.css"
-import React from 'react'
+import React, {useState, useEffect, useContext} from 'react'
 
-// function Calendar(){
+import AuthContext from '../context/AuthContext';
 
-
-
-//     
-        
-    
-
-    
-//     function renderEventContent(eventInfo) {
-    
-    
-//         return (
-//           <>
-//             <b>{eventInfo.timeText}</b>
-//             <i>{eventInfo.event.title}</i>
-//           </>
-//         )
-//       }
-// }
+const Calendar2 = () => {
+   // calendarRef = React.useRef()
+    let {events} = useContext(AuthContext);
 
 
-
-  
-export default class Calendar extends React.Component{
-
-    calendarRef = React.createRef()
-
-  render() {
-    return(
-        <div className="calendar">
+  return (
+    <div className="calendar">
 
             <FullCalendar
             plugins={[ timeGridPlugin, dayGridPlugin ]}
@@ -45,16 +23,14 @@ export default class Calendar extends React.Component{
             weekends={false}
             allDaySlot={false}
             slotDuration={"01:00:00"}
-            events={[
-            { title: ' event 1', date: '2022-11-01', display: 'block', start: '2022-11-01T10:30:00' },
-            { title: 'event 2', date: '2022-11-02' }
-            ]}
-            
+            events={events}
+            // set start to january 1st 2023
+            //start={new Date(2023, 0, 1)}
             displayEventTime = {true}
-            headerToolbar={
-                {right: 'dayGridMonth, timeGridWeek, timeGridDay', 
-                center: 'add'    
-            }}
+            // headerToolbar={
+            //     {right: 'dayGridMonth, timeGridWeek, timeGridDay', 
+            //     center: 'add'    
+            // }}
             height = {'auto'}
             
             //dayHeaderFormat={}
@@ -62,18 +38,7 @@ export default class Calendar extends React.Component{
             />
             
         </div>
-
-    
-
-            )
-  }
-
-  someMethod() {
-    let calendarApi = this.calendarRef.current.getApi()
-    calendarApi.next()
-
-    calendarApi.next()
-    
-  }
-
+  )
 }
+
+export default Calendar2

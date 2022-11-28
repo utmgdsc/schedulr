@@ -4,12 +4,13 @@ import AuthContext from '../context/AuthContext';
 import './HomePage.css'
 import NavBar from '../components/nav-bar.js'
 import Footer from '../components/footer.js'
-import Calendar from '../components/calendar.js'
+
+import Calendar2 from '../components/calendar';
 
 
 const HomePage = () => {
   let [note, setNotes] = useState([]);
-  let {authTokens, logoutUser,user } = useContext(AuthContext);
+  let {authTokens, logoutUser, user } = useContext(AuthContext);
 
   useEffect(() => {
 getNotes();
@@ -54,14 +55,13 @@ getNotes();
       <div className='header'>
         {/* {user.last_name}, {user.first_name} */}
 
-
-
       </div>
       
       <div className='calendar'>
         
         
-        <Calendar></Calendar>
+        {/* <Calendar></Calendar> */}
+        <Calendar2></Calendar2>
 
       </div>
 
