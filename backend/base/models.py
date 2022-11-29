@@ -9,8 +9,7 @@ class Note(models.Model):
 
 
 class Tcourse(models.Model):
-    course_id = models.AutoField(primary_key=True)
-    course_name = models.CharField(max_length=20, blank=True, null=True)
+    course_id = models.CharField(max_length=20, primary_key=True, null=False, default="default")
 
     
 class Tcourseevent(models.Model):
@@ -18,10 +17,9 @@ class Tcourseevent(models.Model):
     course_id = models.ForeignKey(Tcourse, models.CASCADE, blank=True, null=True)
     course_event_name = models.CharField(max_length=200, blank=True, null=True)
     course_event_datetime = models.DateTimeField(blank=True, null=True)
-    course_event_duration = models.IntegerField(blank=True, null=True)
     course_event_preptime = models.IntegerField(blank=True, null=True)
     course_event_weightage = models.IntegerField(blank=True, null=True)
-    course_event_type = models.IntegerField(blank=True, null=True)
+    course_event_type = models.CharField(max_length=50, blank=True, null=True)
     course_event_repeat = models.IntegerField(blank=True, null=True)
     course_event_weekday = models.CharField(max_length=50, blank=True, null=True)
 
@@ -32,17 +30,7 @@ class Tcourseclass(models.Model):
     course_class_name = models.CharField(max_length=200, blank=True, null=True)
     course_class_weekday = models.CharField(max_length=50, blank=True, null=True)
     course_class_duration = models.IntegerField(blank=True, null=True)
-
-    
-class Tpersonalevent(models.Model):
-    personal_event_id = models.BigAutoField(primary_key=True)
-    student = models.ForeignKey('Tstudent', models.CASCADE, blank=True, null=True)
-    personal_event_name = models.CharField(max_length=200, blank=True, null=True)
-    personal_event_datetime = models.DateTimeField(blank=True, null=True)
-    personal_event_duration = models.IntegerField(blank=True, null=True)
-    personal_event_preptime = models.IntegerField(blank=True, null=True)
-    personal_event_traveltime = models.IntegerField(blank=True, null=True)
-    timeslot_id = models.IntegerField(blank=True, null=True)
+    course_class_time = models.IntegerField(blank=True, null=True)
 
     
 
@@ -61,6 +49,7 @@ class Tstudent(models.Model):
     student_max_timeblock = models.IntegerField(blank=True, null=True)
     student_day_starttime = models.IntegerField(blank=True, null=True)
     student_day_endtime = models.IntegerField(blank=True, null=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
 
     
 class Tstudentcourse(models.Model):
@@ -68,6 +57,15 @@ class Tstudentcourse(models.Model):
     student = models.ForeignKey(Tstudent, models.CASCADE, blank=True, null=True)
     course = models.ForeignKey(Tcourse, models.CASCADE, blank=True, null=True)
 
+
+class Tpersonalevent(models.Model):
+    personal_event_id = models.BigAutoField(primary_key=True)
+    student = models.ForeignKey('Tstudent', models.CASCADE, blank=True, null=True)
+    personal_event_name = models.CharField(max_length=200, blank=True, null=True)
+    personal_event_datetime = models.DateTimeField(blank=True, null=True)
+    personal_event_duration = models.IntegerField(blank=True, null=True)
+    personal_event_preptime = models.IntegerField(blank=True, null=True)
+    personal_event_traveltime = models.IntegerField(blank=True, null=True)
 
 class Ttimeslot(models.Model):
     timeslot_id = models.BigAutoField(primary_key=True)
@@ -78,8 +76,6 @@ class Ttimeslot(models.Model):
     timeslot_type = models.IntegerField(blank=True, null=True)
     course_event = models.ForeignKey(Tcourseevent, models.CASCADE, blank=True, null=True)
     personal_event = models.ForeignKey(Tpersonalevent, models.CASCADE, blank=True, null=True)
-
-
 
 
 
