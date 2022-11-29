@@ -50,19 +50,37 @@ class RegisterSerializer(ModelSerializer):
 
         return user
 
+
 class CourseSerializer(ModelSerializer):
+    
+    #add a custom field which takes a string input
+    custom_field = serializers.CharField(write_only=True, required=True)
+    
+    
     class Meta:
         model = Tstudentcourse
-        fields = '__all__'
+        #fields will accept custom field and all fields from Tstudentcourse
+        fields = ['custom_field', 'course']
+    
+    def validate(self, attrs):
+        #convert custom field to student object
+        attrs['student'] = User.objects.get(username=attrs['custom_field'])
+        return attrs
+    
     
     def create(self, validated_data):
-        tstudentcourse = Tstudentcourse.objects.create(
-            student=validated_data['student'],
-            course=validated_data['course'],
-        )
-        
-        tstudentcourse.save()
-        return tstudentcourse
+        # convert student field to user object
+        print("create ran on " + str(validated_data))
+        try:
+            tstudentcourse = Tstudentcourse.objects.create(
+                student=validated_data['student'],
+                course=validated_data['course'],
+            )
+            
+            tstudentcourse.save()
+            return tstudentcourse
+        except:
+            return None
 
 class NoteSerializer(ModelSerializer):
     

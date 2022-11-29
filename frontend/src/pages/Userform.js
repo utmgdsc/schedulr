@@ -9,7 +9,7 @@ import NavBar from '../components/nav-bar.js';
 
 function Userform() {
 
-    let {input108} = useContext(AuthContext);
+    let {input108, input148, input135, input136, input102, input107} = useContext(AuthContext);
     
     const [checked108, setChecked1] = React.useState(false);
     const [checked148, setChecked2] = React.useState(false);
@@ -31,11 +31,34 @@ function Userform() {
 
 
     
-    const handleSubmit = () =>  {
-         
+    const handleSubmit = (e) =>  {
+        e.preventDefault();
         if (checked108) {
             console.log('CSC108')
             input108();
+        }
+        if (checked148) {
+            console.log('CSC148')
+            input148();
+        }
+        if (checked135) {
+            console.log('MAT135')
+            input135();
+        }
+        if (checked136) {
+            console.log('MAT136')
+            input136();
+        }
+        if (checked137) {
+            console.log('MAT137')
+        }
+        if (checked102) {
+            console.log('MAT102')
+            input102();
+        }
+        if (checked107) {
+            console.log('STA107')
+            input107();
         }
       }
 

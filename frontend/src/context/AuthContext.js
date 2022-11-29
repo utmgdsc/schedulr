@@ -35,25 +35,167 @@ export const AuthProvider = ({children}) => {
         }
     }
 
-    let input108 = async (e ) => {
-        e.preventDefault();
+    let input108 = async () => {
+        
         let respone = await fetch('http://127.0.0.1:8000/api/inputCourse/',{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                student: user.username,
-                course: 'CSC108',
+                custom_field: user.username,
+                course: "CSC108",
                 })
         }
         )
+       let data= await respone.json();
+        console.log(data);
         if (respone.status === 200){
             console.log('success');
         }else{
+            //log the error
             console.log('error');
+            console.log(respone);
         }
   }
+
+
+  let input148 = async () => {
+    let respone = await fetch('http://127.0.0.1:8000/api/inputCourse/',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                custom_field: user.username,
+                course: "CSC148",
+                })
+        }
+        )
+       let data= await respone.json();
+        console.log(data);
+        if (respone.status === 200){
+            console.log('success');
+        }else{
+            //log the error
+            console.log('error');
+            console.log(respone);
+        }
+  }
+
+  let input107 = async () => {
+    let respone = await fetch('http://127.0.0.1:8000/api/inputCourse/',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                custom_field: user.username,
+                course: "STA107",
+                })
+        }
+        )
+       let data= await respone.json();
+        console.log(data);
+        if (respone.status === 200){
+            console.log('success');
+        }else{
+            //log the error
+            console.log('error');
+            console.log(respone);
+        }
+  }
+
+  let input137 = async () => {
+    let respone = await fetch('http://127.0.0.1:8000/api/inputCourse/',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                custom_field: user.username,
+                course: "MAT137",
+                })
+        }
+        )
+       let data= await respone.json();
+        console.log(data);
+        if (respone.status === 200){
+            console.log('success');
+        }else{
+            //log the error
+            console.log('error');
+            console.log(respone);
+        }
+  }
+  let input135 = async () => {
+    let respone = await fetch('http://127.0.0.1:8000/api/inputCourse/',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                custom_field: user.username,
+                course: "MAT135",
+                })
+        }
+        )
+       let data= await respone.json();
+        console.log(data);
+        if (respone.status === 200){
+            console.log('success');
+        }else{
+            //log the error
+            console.log('error');
+            console.log(respone);
+        }
+    }
+    let input136 = async () => {
+        let respone = await fetch('http://127.0.0.1:8000/api/inputCourse/',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                custom_field: user.username,
+                course: "MAT136",
+                })
+        }
+        )
+       let data= await respone.json();
+        console.log(data);
+        if (respone.status === 200){
+            console.log('success');
+        }else{
+            //log the error
+            console.log('error');
+            console.log(respone);
+        }
+    }
+    let input102 = async () => {
+        let respone = await fetch('http://127.0.0.1:8000/api/inputCourse/',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                custom_field: user.username,
+                course: "MAT102",
+                })
+        }
+        )
+       let data= await respone.json();
+        console.log(data);
+        if (respone.status === 200){
+            console.log('success');
+        }else{
+            //log the error
+            console.log('error');
+            console.log(respone);
+        }
+    }
+
+    
 
     let registerUser = async (e ) => {
         e.preventDefault();
@@ -146,6 +288,12 @@ export const AuthProvider = ({children}) => {
         registerUser: registerUser,
         events: events,
         input108: input108,
+        input107: input107,
+        input137: input137,
+        input135: input135,
+        input136: input136,
+        input102: input102,
+        input148: input148,
 
     }
 
