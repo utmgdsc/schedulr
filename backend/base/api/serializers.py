@@ -49,7 +49,23 @@ class RegisterSerializer(ModelSerializer):
         user.save()
 
         return user
+
+class CourseSerializer(ModelSerializer):
+    class Meta:
+        model = Tstudentcourse
+        fields = '__all__'
+    
+    def create(self, validated_data):
+        tstudentcourse = Tstudentcourse.objects.create(
+            student=validated_data['student'],
+            course=validated_data['course'],
+        )
+        
+        tstudentcourse.save()
+        return tstudentcourse
+
 class NoteSerializer(ModelSerializer):
+    
     class Meta:
         model = Note
         fields = '__all__'

@@ -24,7 +24,8 @@ export const AuthProvider = ({children}) => {
         let respone = await fetch('http://127.0.0.1:8000/api/events/',{
             method: 'GET',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${authTokens.access}`
             }
         })
         let data = await respone.json();
@@ -33,6 +34,26 @@ export const AuthProvider = ({children}) => {
             console.log(data);
         }
     }
+
+    let input108 = async (e ) => {
+        e.preventDefault();
+        let respone = await fetch('http://127.0.0.1:8000/api/inputCourse/',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                student: user.username,
+                course: 'CSC108',
+                })
+        }
+        )
+        if (respone.status === 200){
+            console.log('success');
+        }else{
+            console.log('error');
+        }
+  }
 
     let registerUser = async (e ) => {
         e.preventDefault();
@@ -124,6 +145,7 @@ export const AuthProvider = ({children}) => {
         logoutUser: logoutUser,
         registerUser: registerUser,
         events: events,
+        input108: input108,
 
     }
 
@@ -142,6 +164,6 @@ export const AuthProvider = ({children}) => {
     return (
         <AuthContext.Provider value={contextData}>
             {children}
-            </AuthContext.Provider>
+        </AuthContext.Provider>
     )
 }

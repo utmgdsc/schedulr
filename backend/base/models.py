@@ -36,12 +36,12 @@ class Tcourseclass(models.Model):
 
 class Tschedule(models.Model):
     schedule_id = models.BigAutoField(primary_key=True)
-    student = models.ForeignKey('Tstudent', models.CASCADE, blank=True, null=True)
+    student = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
     schedule_generation_reason = models.IntegerField(blank=True, null=True)
 
     
 class Tstudent(models.Model):
-    student_id = models.BigAutoField(primary_key=True)
+    student_id = models.ForeignKey(User, on_delete=models.CASCADE, primary_key=True, unique=True)
     student_name = models.CharField(max_length=200, blank=True, null=True)
     student_email = models.CharField(max_length=200, blank=True, null=True)
     student_max_studytime = models.IntegerField(blank=True, null=True)
@@ -49,18 +49,18 @@ class Tstudent(models.Model):
     student_max_timeblock = models.IntegerField(blank=True, null=True)
     student_day_starttime = models.IntegerField(blank=True, null=True)
     student_day_endtime = models.IntegerField(blank=True, null=True)
-    user = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
+
 
     
 class Tstudentcourse(models.Model):
     student_course_id = models.BigAutoField(primary_key=True)
-    student = models.ForeignKey(Tstudent, models.CASCADE, blank=True, null=True)
-    course = models.ForeignKey(Tcourse, models.CASCADE, blank=True, null=True)
+    student = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
+    course = models.CharField(max_length=6, blank=False, null=True)
 
-
+ 
 class Tpersonalevent(models.Model):
     personal_event_id = models.BigAutoField(primary_key=True)
-    student = models.ForeignKey('Tstudent', models.CASCADE, blank=True, null=True)
+    student = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
     personal_event_name = models.CharField(max_length=200, blank=True, null=True)
     personal_event_datetime = models.DateTimeField(blank=True, null=True)
     personal_event_duration = models.IntegerField(blank=True, null=True)

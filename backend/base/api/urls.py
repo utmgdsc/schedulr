@@ -16,4 +16,5 @@ urlpatterns = [
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('register/', views.RegisterView.as_view(), name='register'),
      path('events/', views.getEvents, name='events'),
+     path('inputCourse/', views.TstudenCourseView.as_view(), name='inputCourse'),
 ]
