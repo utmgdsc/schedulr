@@ -34,7 +34,7 @@ def createCourseEvent():
             if row[5] != "":
                 Tcourseevent.objects.create(course_id=Tcourse(course_id=row[0]), course_event_name=row[1], course_event_preptime=int(row[2]), course_event_type=row[3], course_event_weightage=int(row[4]),course_event_datetime=datetime.datetime(int(row[5][0:4]),int(row[5][5:7]),int(row[5][8:10]),int(row[5][11:13])), course_event_repeat=int(row[6]), course_event_weekday=row[7])
             else: 
-                Tcourseevent.objects.create(course_id=Tcourse(course_id=row[0]), course_event_name=row[1], course_event_preptime=int(row[2]), course_event_type=row[3], course_event_weightage=int(row[4]), course_event_weekday=row[7])
+                Tcourseevent.objects.create(course_id=Tcourse(course_id=row[0]), course_event_name=row[1], course_event_preptime=int(row[2]), course_event_type=row[3], course_event_weightage=int(row[4]), course_event_repeat=int(row[6]), course_event_weekday=row[7])
     print('course events filled')
 
 createTcourse()
