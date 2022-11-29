@@ -27,10 +27,12 @@ const Calendar2 = () => {
             // set start to january 1st 2023
             //start={new Date(2023, 0, 1)}
             displayEventTime = {true}
-            // headerToolbar={
-            //     {right: 'dayGridMonth, timeGridWeek, timeGridDay', 
-            //     center: 'add'    
-            // }}
+            
+            headerToolbar={
+              {center: 'dayGridMonth, timeGridWeek, timeGridDay', 
+
+          }}
+          expandRows={true}
             height = {'auto'}
             
             //dayHeaderFormat={}

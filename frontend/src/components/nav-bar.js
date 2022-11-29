@@ -1,15 +1,16 @@
 import { useContext } from 'react';
 import './nav-bar.css'
 import AuthContext from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
 
 function NavBar(){
     let {logoutUser} = useContext(AuthContext);
-
+   
     return(
         <div className="nav-bar">
             
-            <div className='logo'>Schedulr.</div>    
+            <div className='logo' >Schedulr.</div>    
 
             <div id='courses-button' className='buttons'>Courses</div>
             <div id='settings-button' className='buttons'>Settings</div>
