@@ -38,16 +38,7 @@ getNotes();
   
 
 }
- //razeen's prev code
-  // return (
-  //   <div>
-  //      <ul>
-  //       {note.map(note => (
-  //         <li key={note.id}>{note.body}</li>
-  //       ))}
-  //       </ul>
-  //   </div>
-  // )
+
   return (
     <div className='Home'>
     
@@ -58,19 +49,11 @@ getNotes();
         {/* {user.last_name}, {user.first_name} */}
 
       </div>
-      
-      <div className='calendar'>
-        
-        
-        {/* <Calendar></Calendar> */}
+
         <Calendar2></Calendar2>
 
-      </div>
-
       
-      <Footer>
-
-      </Footer>
+      <Footer></Footer>
     </div>
     
     </div>

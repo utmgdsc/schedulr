@@ -5,18 +5,22 @@ import './header.css'
 
 const Header = () => {
     let {user, logoutUser} = useContext(AuthContext);
-  return (
+    const linkStyle = {
+      margin: "1rem",
+      textDecoration: "none",
+      color: 'white'
+    };
+    return (
     <div className='header'>
       
-        <Link to="/">Home</Link>
+        <Link to="/" style={linkStyle}>Home</Link>
         <span> | </span>
-        { user ? (<span></span>): (<Link to="/login">Login</Link>)}
+        { user ? (<span></span>): (<Link to="/login" style={linkStyle}>Login</Link>)}
         <span> | </span>
-        <Link to="/userform">UserForm</Link>
+        <Link to="/userform" style={linkStyle}>UserForm</Link>
         
         <span> | </span>
-        <Link to="register">Register</Link>
-        
+        <Link to="register" style={linkStyle}>Register</Link>
     </div>
   )
 }

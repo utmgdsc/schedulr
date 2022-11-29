@@ -1,0 +1,45 @@
+
+.register-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:#172C5A ;
+    color:white;
+    text-align: center;
+    width: auto;
+    padding-top: 20 px;
+    
+
+}
+.register-form{
+    text-align: center;
+    flex-grow: 1;
+}
+.register-inputs{
+    
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    width: 0 ;
+    padding-left: 45%;
+    display: flex;
+    align-items: center;
+
+}
+input{
+    /* text-align: center; */
+    margin-left: 10px;
+}
+hr{
+
+    size:5px;
+    width: 30vw;
+    color: #FFD700;
+}
+
+Footer{
+    
+
+    margin-top:auto;
+}

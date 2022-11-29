@@ -1,0 +1,22 @@
+.login-page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:#172C5A ;
+    color:white;
+    text-align: center;
+    width: auto;
+    padding-top: 20px;
+}
+.login-form{
+    text-align: center;
+    
+    flex-grow: 1;
+}
+
+
+Footer{
+    
+
+    margin-top:auto;
+}
