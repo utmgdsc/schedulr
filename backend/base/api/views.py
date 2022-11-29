@@ -10,8 +10,8 @@ from rest_framework_simplejwt.views import TokenObtainPairView
 
 from .serializers import NoteSerializer
 from base.models import Note
-from base.models import Tcourse
-from .serializers import TcourseSerializer
+from base.models import Tcourse, Tstudentcourse
+from .serializers import CourseSerializer
 from .calculateCal import generate_events
 # import mock_data.csv
 import csv
@@ -49,6 +49,7 @@ def getRoute(request):
         'api/notes',
         'api/register',
         'api/events',
+        'inputCourse/',
     ]
     
     return Response(routes)
@@ -59,7 +60,7 @@ def getRoute(request):
 def getNotes(request):
     
     user = request.user
-    
+    #print(user + " is the user from getnotes")
     notes = user.note_set.all()
     serializer = NoteSerializer(notes, many=True)
     
@@ -77,7 +78,18 @@ class RegisterView(generics.CreateAPIView):
     serializer_class = RegisterSerializer
     
     
+class TstudenCourseView(generics.CreateAPIView):
+    queryset = Tstudentcourse.objects.all()
+    permission_classes = (AllowAny,)
+    serializer_class = CourseSerializer
+    
 @api_view(['GET'])
+@permission_classes([IsAuthenticated])
 def getEvents(request):
-    events = generate_events(os.path.dirname(os.path.realpath(__file__)) + '\\mock_data.csv')
+    
+    #get the logged in user, and then pass the user id onto generate_events
+    user = request.user
+    events = generate_events(user)
+    
     return Response(events)
+    

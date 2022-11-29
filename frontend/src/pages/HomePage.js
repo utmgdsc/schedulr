@@ -28,6 +28,8 @@ getNotes();
     let data = await response.json();
 
     if(response.status === 200){
+      console.log(data)
+      console.log(user.username)
       setNotes(data);
   }else if(response.statusText == 'Unauthorized'){
     logoutUser();
@@ -48,7 +50,7 @@ getNotes();
   // )
   return (
     <div className='Home'>
-      
+    
     <NavBar></NavBar>
     
     <div className='main-section'>
