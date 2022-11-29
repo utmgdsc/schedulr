@@ -23,18 +23,22 @@ const Calendar2 = () => {
             weekends={false}
             allDaySlot={false}
             slotDuration={"01:00:00"}
-            events={events}
+            // events={events}
+            events={
+                [{title: 'my eventasdasdasd',
+                start: '2022-11-29T10:30:00',
+                end: '2022-11-29T11:30:00',
+                display: 'list-item'}]}
             // set start to january 1st 2023
             //start={new Date(2023, 0, 1)}
             displayEventTime = {true}
-            // headerToolbar={
-            //     {right: 'dayGridMonth, timeGridWeek, timeGridDay', 
-            //     center: 'add'    
-            // }}
-            height = {'auto'}
-            
-            //dayHeaderFormat={}
-            
+            headerToolbar={
+                {center: 'dayGridMonth, timeGridWeek, timeGridDay', 
+
+            }}
+            expandRows={true}
+            // contentHeight = {'auto'}
+            height={'auto'}
             />
             
         </div>

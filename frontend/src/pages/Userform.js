@@ -106,15 +106,15 @@ function Userform() {
             </label>
             <label>
                 <input type="checkbox" checked={checked135} onChange={handleChange3} />
-                Mat135
+                MAT135
             </label>
             <label>
                 <input type="checkbox" checked={checked136} onChange={handleChange4}/>
-                Mat136
+                MAT136
             </label>
             <label>
                 <input type="checkbox" checked={checked137} onChange={handleChange5} />
-                Mat137
+                MAT137
             </label>
             <label>
                 <input type="checkbox" checked={checked102} onChange={handleChange6}/>
@@ -122,7 +122,7 @@ function Userform() {
             </label>
             <label>
                 <input type="checkbox" checked={checked107} onChange={handleChange7}/>
-                MAT102
+                STA107
             </label>
 
             <hr></hr>
@@ -156,7 +156,7 @@ function Userform() {
             <label>What is the maximum amount of hours that you want to study continuously?</label>
             <br></br>
             <label>
-                <input type="text" value={contTime} onChange={contTimeChange} ></input>
+                <input type="text" value={contTime} placeholder='eg: 3' onChange={contTimeChange} ></input>
             </label>
 
             <hr></hr>

@@ -57,13 +57,13 @@ getNotes();
 
       </div>
       
-      <div className='calendar'>
+      
         
         
         {/* <Calendar></Calendar> */}
         <Calendar2></Calendar2>
 
-      </div>
+      
 
       
       <Footer>
