@@ -3,12 +3,14 @@ import AuthContext from '../context/AuthContext';
 import Footer from '../components/footer.js'
 import './Userform.css'
 import NavBar from '../components/nav-bar.js';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 function Userform() {
 
+    const navigate = useNavigate();
     let {input108, input148, input135, input136, input102, input107} = useContext(AuthContext);
     
     const [checked108, setChecked1] = React.useState(false);
@@ -60,6 +62,7 @@ function Userform() {
             console.log('STA107')
             input107();
         }
+        navigate('/');
       }
 
     const handleChange1 = () => {
