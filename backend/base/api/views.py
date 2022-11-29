@@ -12,7 +12,8 @@ from .serializers import NoteSerializer
 from base.models import Note
 from base.models import Tcourse, Tstudentcourse
 from .serializers import CourseSerializer
-from .calculateCal import generate_events
+# from .calculateCal import generate_events
+from .calculateCalenderLecture import generate_events
 # import mock_data.csv
 import csv
 
