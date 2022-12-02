@@ -58,7 +58,9 @@ def getRoute(request):
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def getNotes(request):
-    
+    print("get notes")
+    print(request)
+    print(request.user)
     user = request.user
     #print(user + " is the user from getnotes")
     notes = user.note_set.all()
@@ -86,10 +88,10 @@ class TstudenCourseView(generics.CreateAPIView):
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def getEvents(request):
-    
     #get the logged in user, and then pass the user id onto generate_events
+    print("get events")
+    print(request)
     user = request.user
     events = generate_events(user)
-    
     return Response(events)
     

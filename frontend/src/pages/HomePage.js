@@ -10,11 +10,15 @@ import Calendar2 from '../components/calendar';
 
 const HomePage = () => {
   let [note, setNotes] = useState([]);
-  let {authTokens, logoutUser, user } = useContext(AuthContext);
+
+  let {authTokens, logoutUser, user, getEvents } = useContext(AuthContext);
 
   useEffect(() => {
-getNotes();
+  getNotes();
+  getEvents();
   }, [])
+
+  
 
   let getNotes = async () => {
 
