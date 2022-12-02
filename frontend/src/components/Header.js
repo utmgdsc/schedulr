@@ -21,6 +21,8 @@ const Header = () => {
         
         <span> | </span>
         <Link to="register" style={linkStyle}>Register</Link>
+        <span> | </span>
+        <span style={linkStyle}>{!user ? (<span></span>) :(<span>hii {user.username}</span>) } </span>
     </div>
   )
 }

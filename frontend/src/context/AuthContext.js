@@ -14,26 +14,34 @@ export const AuthProvider = ({children}) => {
     let [authTokens, setAuthTokens] = useState(() => localStorage.getItem('authTokens') ? JSON.parse(localStorage.getItem('authTokens')) : null);
     let [user, setUser] = useState(() => localStorage.getItem('authTokens') ? jwt_decode(localStorage.getItem('authTokens')) : null);
     let [loading, setLoading] = useState(true);
-
     let [events, setEvents] = useState([]);
+
+
 
 
     const navigate = useNavigate();
 
+    
     let getEvents = async () => {
         let respone = await fetch('http://127.0.0.1:8000/api/events/',{
             method: 'GET',
             headers: {
-                'Content-Type': 'application/json',
+                'Content-Type': 'application/json', 
                 'Authorization': `Bearer ${authTokens.access}`
             }
         })
         let data = await respone.json();
+        console.log("hey");
+        console.log(authTokens.access + " yeahhh");
         if (respone.status === 200){
             setEvents(data);
+            
             console.log(data);
+        } else {
+            alert('error');
         }
     }
+
 
     let input108 = async () => {
         
@@ -240,7 +248,7 @@ export const AuthProvider = ({children}) => {
              setAuthTokens(data);
              setUser(jwt_decode(data.access));
              localStorage.setItem('authTokens', JSON.stringify(data));
-             getEvents();   
+  
              navigate('/');
          } else {
              alert('incorrect username or password');
@@ -286,7 +294,6 @@ export const AuthProvider = ({children}) => {
         loginUser: loginUser,
         logoutUser: logoutUser,
         registerUser: registerUser,
-        events: events,
         input108: input108,
         input107: input107,
         input137: input137,
@@ -294,6 +301,8 @@ export const AuthProvider = ({children}) => {
         input136: input136,
         input102: input102,
         input148: input148,
+        getEvents: getEvents,
+        events: events,
 
     }
 
