@@ -82,7 +82,7 @@ for course in json_data:
             end_time = end_time.strftime('%H:%M')
             day = day_converter(time['day'])
             
-            all_data.append([course['code'], course['code'] + ':'+ lec['section']+ ':' + time['day'].lower(), day, duration_in_m, start_time])
+            all_data.append([course['code'], course['code'] + ':'+ tut['section']+ ':' + time['day'].lower(), day, duration_in_m, start_time])
 
 print(all_data)
 
