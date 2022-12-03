@@ -35,6 +35,22 @@ duration_in_m = int(duration.total_seconds()/60)
 print(duration_in_m)
 
 
+def day_converter(day):
+    if day == 'MON':
+        return 'Monday'
+    if day == 'TUE':
+        return 'Tuesday'
+    if day == 'WED':
+        return 'Wednesday'
+    if day == 'THU':
+        return 'Thursday'
+    if day == 'FRI':
+        return 'Friday'
+    if day == 'SAT':
+        return 'Saturday'
+    if day == 'SUN':
+        return 'Sunday'
+
 
 for course in json_data:
     for lec in course['lec']:
@@ -45,13 +61,15 @@ for course in json_data:
             start_time = datetime.datetime.strptime(start_time, '%I:%M %p')
             end_time = datetime.datetime.strptime(end_time, '%I:%M %p')
             duration = end_time - start_time
-            duration_in_m = int(duration.total_seconds()/60)
+            duration_in_m = str(int(duration.total_seconds()/60))
             
             #format start and end time to 24 hour format and convert to string
             start_time = start_time.strftime('%H:%M')
             end_time = end_time.strftime('%H:%M')
             
-            all_data.append([course['code'], lec['section'],time['day'], start_time, end_time, str(duration_in_m)])
+            day = day_converter(time['day'])
+            
+            all_data.append([course['code'], course['code'] + ':'+ lec['section']+ ':' + time['day'].lower(), day, duration_in_m, start_time])
     for tut in course['tut']:
         for time in tut['times']:
             start_time = time['time'].split('-')[0].strip()
@@ -59,10 +77,12 @@ for course in json_data:
             start_time = datetime.datetime.strptime(start_time, '%I:%M %p')
             end_time = datetime.datetime.strptime(end_time, '%I:%M %p')
             duration = end_time - start_time
-            duration_in_m = int(duration.total_seconds()/60)
+            duration_in_m = str(int(duration.total_seconds()/60))
             start_time = start_time.strftime('%H:%M')
             end_time = end_time.strftime('%H:%M')
-            all_data.append([course['code'], lec['section'],time['day'], start_time, end_time, str(duration_in_m)])
+            day = day_converter(time['day'])
+            
+            all_data.append([course['code'], course['code'] + ':'+ lec['section']+ ':' + time['day'].lower(), day, duration_in_m, start_time])
 
 print(all_data)
 
