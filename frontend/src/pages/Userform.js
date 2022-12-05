@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useContext} from 'react'
+import React, {useState, useEffect, useContext, useRef} from 'react'
 import AuthContext from '../context/AuthContext';
 import Footer from '../components/footer.js'
 import './Userform.css'
@@ -31,6 +31,27 @@ function Userform() {
     const [thurStudy, setThurStudy] = React.useState(false)
     const [friStudy, setFriStudy] = React.useState(false)
 
+    const lec108 = useRef("");
+    const tut108 = useRef("");
+    
+    const lec148 = useRef("");
+    const tut148 = useRef("");
+    
+    const lec102 = useRef("");
+    const tut102 = useRef("");
+    
+    const lec135 = useRef("");
+    const tut135 = useRef("");
+
+    const lec136 = useRef("");
+    const tut136 = useRef("");
+    
+    const lec107 = useRef("");
+    const tut107 = useRef("");
+    
+    let selection108 = lec108.current.value;
+
+    
 
     
     const handleSubmit = (e) =>  {
@@ -67,7 +88,8 @@ function Userform() {
 
     const handleChange1 = () => {
         setChecked1(!checked108);
-        toggleHidden();
+        console.log(lec108.current.value)
+        
     };
     const handleChange2 = () => {
         setChecked2(!checked148);
@@ -127,35 +149,13 @@ function Userform() {
         setFriStudy(!friStudy)
     }
 
-
-    const lectures108 = [];//7;
-    const tutorials108 = [];//23;
-    
-    const lectures148 = [];//7 ;
-    const tutorials148 = [];//25 ['PRA0101', 'PRA0102', 'PRA0102', 'PRA0102', 'PRA0105', 'LEC0106', 'LEC0107'];
-
-    const lectures135 = ["LEC0112", "LEC0114"];//['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
-    const tutorials135 =[];// ['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
-
-    const lectures136 = [];//['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
-    const tutorials136 =[];// ['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
-
-    const lectures137 = [];//['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
-    const tutorials137 = [];//['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
-
-    const lectures102 = [];//9;
-    const tutorials102 = [];//36;
-
-    const lectures107 = [];//;
-    const tutorials107 = [];//;
-
     
 
     function getTimings(prefix, num){
         
         let list = []
         for (let i = 0; i < num; i++) {
-            if(i<10){
+            if(i<9){
                 list.push(prefix.concat("010".concat((i+1).toString())))
             }else{
                 list.push(prefix.concat("01".concat((i+1).toString())))
@@ -165,17 +165,7 @@ function Userform() {
         return list
     }
 
-    function toggleHidden(id){
-        let element = document.getElementsById("dropdown")
-        let hidden = element.getAttribute("hidden")
-        if(hidden){
-            element.removeAttribute("hidden")
-        }else{
-            element.setAttribute("hidden", "hidden")
-        }
-
-    }
-    
+ 
     
 
     return (
@@ -194,44 +184,45 @@ function Userform() {
             <label className='checkInput'>
                 <input  type="checkbox" name='csc108' checked={checked108} onChange={handleChange1}/>
                 CSC108
-                <Dropdown id = 'lec108' timings = {getTimings("LEC",7)}/>
-                <Dropdown id = 'tut108' timings = {getTimings("PRA",23)}/>
+                <Dropdown id = 'lec108' reference={lec108} timings = {getTimings("LEC",7)}/>
+                <Dropdown id = 'tut108' reference={tut108} timings = {getTimings("PRA",23)}/>
+
             </label>
             <label className='checkInput'>
                 <input  type="checkbox" name='csc148' checked={checked148} onChange={handleChange2} />
                 CSC148
-                <Dropdown id = 'lec148' timings = {getTimings("LEC",7)}/>
-                <Dropdown id = 'tut148' timings = {getTimings("PRA",25)}/>
+                <Dropdown id = 'lec148' reference={lec148} timings = {getTimings("LEC",7)}/>
+                <Dropdown id = 'tut148' reference={tut148} timings = {getTimings("PRA",25)}/>
             </label>
             <label className='checkInput'>
                 <input  type="checkbox" name='mat135' checked={checked135} onChange={handleChange3} />
                 Mat135
-                <Dropdown id = 'lec102' timings = {getTimings("LEC",9)}/>
-                 <Dropdown id = 'tut102' timings = {getTimings("TUT",36)}/>
+                <Dropdown id = 'lec135' reference={lec135} timings = {getTimings("LEC",9)}/>
+                <Dropdown id = 'tut135' reference={tut135} timings = {getTimings("TUT",36)}/>
             </label >
             <label className='checkInput' >
                 <input  type="checkbox" name='mat136' checked={checked136} onChange={handleChange4}/>
                 Mat136
-                <Dropdown id = 'lec136' timings = {getTimings("LEC",2)}/>
-                <Dropdown id = 'tut136' timings = {getTimings("TUT",9)}/>
+                <Dropdown id = 'lec136' reference={lec136} timings = {getTimings("LEC",2)}/>
+                <Dropdown id = 'tut136' reference={tut136} timings = {getTimings("TUT",9)}/>
             </label >
-            <label className='checkInput'>
+            {/* <label className='checkInput'>
                 <input  type="checkbox" name='mat137' checked={checked137} onChange={handleChange5} />
                 Mat137
                 <Dropdown id = 'lec137' timings = {getTimings("LEC",2)}/>
                 <Dropdown id = 'tut137' timings = {getTimings("TUT",7)}/>
-            </label>
+            </label> */}
             <label className='checkInput'>
                 <input  type="checkbox" name='mat102' checked={checked102} onChange={handleChange6}/>
                 MAT102
-                <Dropdown id = 'lec102' timings = {getTimings("LEC",9)}/>
-            <Dropdown id = 'tut102' timings = {getTimings("TUT",36)}/>
+                <Dropdown id = 'lec102' reference={lec102} timings = {getTimings("LEC",9)}/>
+            <Dropdown id = 'tut102' reference={tut102} timings = {getTimings("TUT",36)}/>
             </label>
             <label className='checkInput'>
                 <input type="checkbox" name='sta107' checked={checked107} onChange={handleChange7}/>
                 STA107  
-                <Dropdown id = 'lec107' timings = {getTimings("LEC",4)}/>
-                <Dropdown id = 'tut107' value = {null} timings = {getTimings("TUT",16)}/>
+                <Dropdown id = 'lec107' reference={lec107} timings = {getTimings("LEC",4)}/>
+                <Dropdown id = 'tut107' reference={lec107} timings = {getTimings("TUT",16)}/>
             </label>
 
             <hr></hr>
@@ -313,9 +304,11 @@ function Userform() {
 
     </div>
   )
-
-
 }
+
+
+
+
 
 function Dropdown(props) {
   const [selectedOption, setSelectedOption] = useState(null);
@@ -324,9 +317,11 @@ function Dropdown(props) {
   return (
     <div>
       
+
       {/* //<label>Select a number: </label> */}
-      <select value={selectedOption} onChange={e => {
-        setSelectedOption(e.target.value)}}>
+      <select ref={props.reference} value={selectedOption} onChange={e => {
+        setSelectedOption(e.target.value)
+           }}>
         {props.timings.map(num => (
           <option key={num} value={num}>
             {num}
