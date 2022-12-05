@@ -18,10 +18,10 @@ def createTcourse():
 def createCourseClass():
     
     #print the absolute path of the file of the current script
-    file_path = "raw_data\\CourseClass.csv"
+    file_path = "raw_data\\timetable.csv"
     with open(file_path, "r") as csv_file:
         data = list(csv.reader(csv_file, delimiter=","))      
-        for row in data[1:]:
+        for row in data:
             Tcourseclass.objects.create(course_id=Tcourse(course_id=row[0]), course_class_name=row[1], course_class_weekday=row[2], course_class_duration=row[3],course_class_time=row[4])
     print("course class created")
     

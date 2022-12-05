@@ -1,0 +1,6672 @@
+[{
+  "campus": "UTM",
+  "code": "CSC108H5",
+  "name": "Introduction to Computer Programming",
+  "sem": "F",
+  "term": "F",
+  "year": "2022",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": true,
+      "instructor": "Zingaro, D.",
+      "capacity": 160,
+      "enrolment": 151,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "8:00 AM - 9:00 AM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "8:00 AM - 9:00 AM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "8:00 AM - 9:00 AM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "Harutyunyan, L.",
+      "capacity": 160,
+      "enrolment": 156,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": true,
+      "instructor": "Harutyunyan, L.",
+      "capacity": 160,
+      "enrolment": 145,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0104",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 160,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        },
+        {
+          "day": "WED",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0105",
+      "isAvailable": true,
+      "instructor": "Zingaro, D.",
+      "capacity": 160,
+      "enrolment": 157,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0106",
+      "isAvailable": true,
+      "instructor": "Engineer, R.",
+      "capacity": 160,
+      "enrolment": 127,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "7:00 PM - 10:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0107",
+      "isAvailable": true,
+      "instructor": "Zavaleta Bernuy, A.",
+      "capacity": 160,
+      "enrolment": 133,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 10:00 PM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "PRA0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 45,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0102",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 47,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 49,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0104",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0105",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0106",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 3,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "7:00 PM - 9:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0107",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 45,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0108",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 48,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0109",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 47,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0110",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 47,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0111",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 46,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0112",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 46,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0113",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 49,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0114",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 43,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0115",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 41,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0116",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 37,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0117",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 20,
+      "enrolment": 7,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 9:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0118",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 39,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0119",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 47,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0120",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 44,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0121",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 45,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0122",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 20,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0123",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 3,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "7:00 PM - 9:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:17.990353-05:00"
+},{
+  "campus": "UTM",
+  "code": "CSC108H5",
+  "name": "Introduction to Computer Programming",
+  "sem": "W",
+  "term": "S",
+  "year": "2023",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 160,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 160,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 160,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    }
+  ],
+  "tut": [
+    {
+      "section": "PRA0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0102",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0104",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0105",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0106",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0107",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0108",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0109",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 30,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "PRA0110",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:33.249046-05:00"
+},{
+  "campus": "UTM",
+  "code": "CSC148H5",
+  "name": "Introduction to Computer Science",
+  "sem": "W",
+  "term": "S",
+  "year": "2023",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": true,
+      "instructor": "Bergen, A.",
+      "capacity": 160,
+      "enrolment": 160,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "Bergen, A.",
+      "capacity": 160,
+      "enrolment": 160,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": true,
+      "instructor": "Ashraf, A.",
+      "capacity": 160,
+      "enrolment": 160,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0104",
+      "isAvailable": true,
+      "instructor": "Ashraf, A.",
+      "capacity": 160,
+      "enrolment": 160,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0105",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 160,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0106",
+      "isAvailable": true,
+      "instructor": "Ashraf, A.",
+      "capacity": 160,
+      "enrolment": 158,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0107",
+      "isAvailable": true,
+      "instructor": "Engineer, R.",
+      "capacity": 160,
+      "enrolment": 158,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 9:00 PM",
+          "room": {
+            "room": "MN 1270",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "PRA0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 38,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0102",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 49,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2026",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0104",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 39,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0105",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 50,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0106",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2026",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0107",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0108",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 50,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0109",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2026",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0110",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 50,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0111",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 39,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0112",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0113",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 30,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "7:00 PM - 9:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0114",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "7:00 PM - 9:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0115",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 38,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0116",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0117",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0118",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 50,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0119",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0120",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 41,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0121",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 38,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0122",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 36,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2026",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0123",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 2020",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0124",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "PRA0125",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 50,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "7:00 PM - 9:00 PM",
+          "room": {
+            "room": "DH 2010",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:33.249187-05:00"
+},{
+  "campus": "UTM",
+  "code": "MAT102H5",
+  "name": "Introduction to Mathematical Proofs",
+  "sem": "F",
+  "term": "F",
+  "year": "2022",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": true,
+      "instructor": "Thind, J.",
+      "capacity": 150,
+      "enrolment": 112,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "KN 137",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495100"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "Fuchs, S.",
+      "capacity": 150,
+      "enrolment": 126,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "MON",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": true,
+      "instructor": "Aslani, S.",
+      "capacity": 150,
+      "enrolment": 122,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "WED",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0104",
+      "isAvailable": true,
+      "instructor": "Abuelnasr, B.",
+      "capacity": 150,
+      "enrolment": 112,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "MON",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DV 2074",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "DV 2074",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0105",
+      "isAvailable": true,
+      "instructor": "de Jong, J.",
+      "capacity": 150,
+      "enrolment": 96,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "THU",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0106",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "LEC0107",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        },
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0108",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        },
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0109",
+      "isAvailable": true,
+      "instructor": "Allison, S.",
+      "capacity": 150,
+      "enrolment": 113,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "WED",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "TUT0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 27,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0102",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 27,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "MN 2130",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0104",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0105",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 28,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0106",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 23,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0107",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 3180",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0108",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 27,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 3220",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0109",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0110",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 23,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 3170",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0111",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 28,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 3220",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0112",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0113",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 28,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "CC 3124",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0114",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 23,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0115",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0116",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "MN 2110",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0117",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 29,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "MN 3170",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0118",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0119",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 26,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "MN 2130",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0120",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0121",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 26,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "MN 3220",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0122",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "8:00 PM - 9:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0123",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 24,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 3220",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0124",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 25,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 3124",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0125",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 30,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0126",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 29,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0127",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 21,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0128",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 9,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "8:00 PM - 9:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0129",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 29,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0130",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 33,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "MN 3120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0131",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0132",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 3100",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0133",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0134",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 33,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0135",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0136",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 28,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "IB 320",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:18.060516-05:00"
+},{
+  "campus": "UTM",
+  "code": "MAT102H5",
+  "name": "Introduction to Mathematical Proofs",
+  "sem": "W",
+  "term": "S",
+  "year": "2023",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 87,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "Hossain, E.",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "MON",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "DV 2074",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": true,
+      "instructor": "de Jong, J.",
+      "capacity": 140,
+      "enrolment": 110,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "MON",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "KN 137",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495100"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "KN 137",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495100"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0104",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0105",
+      "isAvailable": true,
+      "instructor": "Askaripour, N.",
+      "capacity": 140,
+      "enrolment": 88,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "TUT0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0102",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0103",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "MN 2260",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0104",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "DH 3000",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0105",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0106",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 2260",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0107",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "MN 3170",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0108",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 3220",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0109",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 31,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 250",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0110",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "CC 2150",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0111",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0112",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "MN 3120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0113",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 26,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "DH 2070",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0114",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "MN 2100",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0115",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "8:00 PM - 9:00 PM",
+          "room": {
+            "room": "MN 2100",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0116",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0117",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 33,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0118",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "MN 2260",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0119",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 15,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "MN 2150",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0120",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0121",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 20,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 3100",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:33.319257-05:00"
+},{
+  "campus": "UTM",
+  "code": "MAT135H5",
+  "name": "Differential Calculus",
+  "sem": "F",
+  "term": "F",
+  "year": "2022",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": true,
+      "instructor": "Askaripour, N.",
+      "capacity": 150,
+      "enrolment": 139,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "MON",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "Wesslen, M.",
+      "capacity": 150,
+      "enrolment": 138,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "DV 2074",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": true,
+      "instructor": "Ahsan, M.",
+      "capacity": 150,
+      "enrolment": 108,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "IB 345",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "WED",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "KN 137",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495100"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0104",
+      "isAvailable": true,
+      "instructor": "Wesslen, M.",
+      "capacity": 150,
+      "enrolment": 141,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "KN 137",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495100"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0105",
+      "isAvailable": true,
+      "instructor": "Hossain, E.",
+      "capacity": 150,
+      "enrolment": 137,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "MON",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0106",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        },
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0107",
+      "isAvailable": true,
+      "instructor": "Avvakumov, S.",
+      "capacity": 150,
+      "enrolment": 109,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0108",
+      "isAvailable": true,
+      "instructor": "Herman, J.",
+      "capacity": 150,
+      "enrolment": 137,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0109",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "LEC0110",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "LEC0111",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "LEC0112",
+      "isAvailable": true,
+      "instructor": "Orsoni, M.",
+      "capacity": 150,
+      "enrolment": 137,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 345",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 345",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0113",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "LEC0114",
+      "isAvailable": true,
+      "instructor": "De Benedetti, M.",
+      "capacity": 150,
+      "enrolment": 132,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "IB 120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "THU",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "TUT0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 33,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0102",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 29,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0104",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0105",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0106",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 28,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0107",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0108",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "DH 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0109",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 385",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0110",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0111",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 36,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0112",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 240",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0113",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0114",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 29,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0115",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0116",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0117",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 30,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0118",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0119",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0120",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 3124",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0121",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0122",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 33,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0123",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 31,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0124",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 33,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0125",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0126",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 20,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0127",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0128",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0129",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "MN 2260",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0130",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 37,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 2190",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0131",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0132",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0133",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 31,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "CC 3124",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0134",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 31,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 390",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0135",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 3124",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0136",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0137",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0138",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0139",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0140",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0141",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0142",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0143",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0144",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 36,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "MN 3180",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0145",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 37,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 1190",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0146",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0147",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 38,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "MN 3120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0148",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0149",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 36,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 235",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0150",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0151",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0152",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0153",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0154",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 28,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0155",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0156",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 33,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "IB 320",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:18.063648-05:00"
+},{
+  "campus": "UTM",
+  "code": "MAT135H5",
+  "name": "Differential Calculus",
+  "sem": "W",
+  "term": "S",
+  "year": "2023",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": true,
+      "instructor": "Pawliuk, M.",
+      "capacity": 140,
+      "enrolment": 60,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "Pawliuk, M.",
+      "capacity": 140,
+      "enrolment": 76,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 345",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DV 2072",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 55,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "4:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0104",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "TUT0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 15,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0102",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 24,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 2260",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0104",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "MN 2190",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0105",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0106",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0107",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0108",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 3,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 240",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0109",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 3170",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0110",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0111",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 320",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0112",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 18,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 320",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0113",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0114",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 30,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0115",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0116",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 11,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:33.321851-05:00"
+},{
+  "campus": "UTM",
+  "code": "MAT136H5",
+  "name": "Integral Calculus",
+  "sem": "F",
+  "term": "F",
+  "year": "2022",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": true,
+      "instructor": "Pawliuk, M.",
+      "capacity": 150,
+      "enrolment": 129,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "De Benedetti, M.",
+      "capacity": 150,
+      "enrolment": 73,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 7:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "TUT0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 29,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0102",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 32,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 43,
+      "enrolment": 30,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "IB 390",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0104",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0105",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 43,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 200",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0106",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 29,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "DH 4001",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0107",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 43,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "MN 3100",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0108",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0109",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 0,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": " ",
+            "map": null
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:18.066153-05:00"
+},{
+  "campus": "UTM",
+  "code": "MAT136H5",
+  "name": "Integral Calculus",
+  "sem": "W",
+  "term": "S",
+  "year": "2023",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": true,
+      "instructor": "Ahsan, M.",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "KN 137",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495100"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "Wesslen, M.",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "CC 1140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": true,
+      "instructor": "Abuelnasr, B.",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "MON",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0104",
+      "isAvailable": true,
+      "instructor": "Wesslen, M.",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "WED",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0105",
+      "isAvailable": true,
+      "instructor": "Hossain, E.",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "9:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0106",
+      "isAvailable": true,
+      "instructor": "Herman, J.",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "THU",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0107",
+      "isAvailable": true,
+      "instructor": "Herman, J.",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "KN 137",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495100"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "KN 137",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495100"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0108",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "IB 120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 110",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0109",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0110",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 140,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "TUE",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "DV 2082",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "DV 2074",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0111",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 140,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "THU",
+          "time": "4:00 PM - 6:00 PM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0112",
+      "isAvailable": true,
+      "instructor": "Ahsan, M.",
+      "capacity": 140,
+      "enrolment": 138,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "6:00 PM - 8:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 3:00 PM",
+          "room": {
+            "room": "DV 2080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "TUT0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0102",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 385",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0104",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0105",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 360",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0106",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0107",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0108",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0109",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "MN 1190",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0110",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0111",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 1190",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0112",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0113",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "IB 380",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0114",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 2190",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0115",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 2130",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0116",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0117",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0118",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0119",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "MN 3120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0120",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0121",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 320",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0122",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "2:00 PM - 3:00 PM",
+          "room": {
+            "room": "IB 320",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0123",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0124",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 34,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "DH 3000",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0125",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0126",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 2190",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0127",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 2190",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0128",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0129",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0130",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "IB 320",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0131",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0132",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0133",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0134",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 370",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0135",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0136",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "IB 140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0137",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "MN 2130",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0138",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0139",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0140",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "MN 2130",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0141",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "MN 2100",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0142",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0143",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 3170",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0144",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "DH 3000",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0145",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 35,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "MN 2260",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0146",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "6:00 PM - 7:00 PM",
+          "room": {
+            "room": "CC 2134",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0147",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "IB 350",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0148",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 35,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "7:00 PM - 8:00 PM",
+          "room": {
+            "room": "IB 340",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:33.322677-05:00"
+},{
+  "campus": "UTM",
+  "code": "STA107H5",
+  "name": "An Introduction to Probability and Modelling",
+  "sem": "W",
+  "term": "S",
+  "year": "2023",
+  "lec": [
+    {
+      "section": "LEC0101",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 160,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "LEC0102",
+      "isAvailable": true,
+      "instructor": "Hamdi, S.",
+      "capacity": 160,
+      "enrolment": 160,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "WED",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 245",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "SAT",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0103",
+      "isAvailable": true,
+      "instructor": "Ataei, M.",
+      "capacity": 160,
+      "enrolment": 95,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "IB 120",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        },
+        {
+          "day": "SAT",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "CC 1080",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495118"
+          }
+        }
+      ]
+    },
+    {
+      "section": "LEC0104",
+      "isAvailable": true,
+      "instructor": "Hamdi, S.",
+      "capacity": 160,
+      "enrolment": 160,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "WED",
+          "time": "3:00 PM - 5:00 PM",
+          "room": {
+            "room": "MN 1210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        },
+        {
+          "day": "SAT",
+          "time": "11:00 AM - 1:00 PM",
+          "room": {
+            "room": "ZZ TBA",
+            "map": null
+          }
+        },
+        {
+          "day": "MON",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "DV 2074",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495104"
+          }
+        }
+      ]
+    }
+  ],
+  "tut": [
+    {
+      "section": "TUT0101",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "DH 4001",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0102",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "4:00 PM - 5:00 PM",
+          "room": {
+            "room": "DH 4001",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0103",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 37,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "MON",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "DH 4001",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0104",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "3:00 PM - 4:00 PM",
+          "room": {
+            "room": "MN 2100",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0105",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 40,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "TUE",
+          "time": "5:00 PM - 6:00 PM",
+          "room": {
+            "room": "MN 2130",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0106",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "TUT0107",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "TUT0108",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "TUT0109",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 37,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "IB 210",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0110",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 39,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "11:00 AM - 12:00 PM",
+          "room": {
+            "room": "IB 385",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0111",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 39,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "THU",
+          "time": "12:00 PM - 1:00 PM",
+          "room": {
+            "room": "IB 385",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0112",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 22,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "9:00 AM - 10:00 AM",
+          "room": {
+            "room": "DH 4001",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0113",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 39,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "10:00 AM - 11:00 AM",
+          "room": {
+            "room": "DH 4001",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495119"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0114",
+      "isAvailable": true,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 5,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "IB 140",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495123"
+          }
+        }
+      ]
+    },
+    {
+      "section": "TUT0115",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": []
+    },
+    {
+      "section": "TUT0116",
+      "isAvailable": false,
+      "instructor": "",
+      "capacity": 40,
+      "enrolment": 0,
+      "delivery": "In Person",
+      "times": [
+        {
+          "day": "FRI",
+          "time": "1:00 PM - 2:00 PM",
+          "room": {
+            "room": "MN 2100",
+            "map": "https://map.utoronto.ca/?id=1809#!m/495122"
+          }
+        }
+      ]
+    }
+  ],
+  "importDTStamp": "2022-11-29 00:00:33.456670-05:00"
+}]

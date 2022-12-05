@@ -31,7 +31,6 @@ class Tcourseclass(models.Model):
     course_class_weekday = models.CharField(max_length=50, blank=True, null=True)
     course_class_duration = models.IntegerField(blank=True, null=True)
     course_class_time = models.IntegerField(blank=True, null=True)
-
     
 
 class Tschedule(models.Model):
