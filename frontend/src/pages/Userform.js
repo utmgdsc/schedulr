@@ -67,6 +67,7 @@ function Userform() {
 
     const handleChange1 = () => {
         setChecked1(!checked108);
+        toggleHidden();
     };
     const handleChange2 = () => {
         setChecked2(!checked148);
@@ -127,44 +128,110 @@ function Userform() {
     }
 
 
-  
+    const lectures108 = [];//7;
+    const tutorials108 = [];//23;
+    
+    const lectures148 = [];//7 ;
+    const tutorials148 = [];//25 ['PRA0101', 'PRA0102', 'PRA0102', 'PRA0102', 'PRA0105', 'LEC0106', 'LEC0107'];
+
+    const lectures135 = ["LEC0112", "LEC0114"];//['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
+    const tutorials135 =[];// ['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
+
+    const lectures136 = [];//['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
+    const tutorials136 =[];// ['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
+
+    const lectures137 = [];//['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
+    const tutorials137 = [];//['LEC0101', 'LEC0102', 'LEC0102', 'LEC0102', 'LEC0105', 'LEC0106', 'LEC0107'];
+
+    const lectures102 = [];//9;
+    const tutorials102 = [];//36;
+
+    const lectures107 = [];//;
+    const tutorials107 = [];//;
+
+    
+
+    function getTimings(prefix, num){
+        
+        let list = []
+        for (let i = 0; i < num; i++) {
+            if(i<10){
+                list.push(prefix.concat("010".concat((i+1).toString())))
+            }else{
+                list.push(prefix.concat("01".concat((i+1).toString())))
+            }
+            
+        }
+        return list
+    }
+
+    function toggleHidden(id){
+        let element = document.getElementsById("dropdown")
+        let hidden = element.getAttribute("hidden")
+        if(hidden){
+            element.removeAttribute("hidden")
+        }else{
+            element.setAttribute("hidden", "hidden")
+        }
+
+    }
+    
+    
+
     return (
         
     <div className='userform'>
-        {/* <NavBar></NavBar> */}
+        
         
         <div className='form-section'>
             <div className='form'>
-
+            
+            
             <form className='input' onSubmit={handleSubmit}>
+            
+            
             <label>Which Courses are you currently taking?</label>
-            <label>
-                <input type="checkbox" name='csc108' checked={checked108} onChange={handleChange1}/>
+            <label className='checkInput'>
+                <input  type="checkbox" name='csc108' checked={checked108} onChange={handleChange1}/>
                 CSC108
+                <Dropdown id = 'lec108' timings = {getTimings("LEC",7)}/>
+                <Dropdown id = 'tut108' timings = {getTimings("PRA",23)}/>
             </label>
-            <label>
-                <input type="checkbox" name='csc148' checked={checked148} onChange={handleChange2} />
+            <label className='checkInput'>
+                <input  type="checkbox" name='csc148' checked={checked148} onChange={handleChange2} />
                 CSC148
+                <Dropdown id = 'lec148' timings = {getTimings("LEC",7)}/>
+                <Dropdown id = 'tut148' timings = {getTimings("PRA",25)}/>
             </label>
-            <label>
-                <input type="checkbox" name='mat135' checked={checked135} onChange={handleChange3} />
+            <label className='checkInput'>
+                <input  type="checkbox" name='mat135' checked={checked135} onChange={handleChange3} />
                 Mat135
-            </label>
-            <label>
-                <input type="checkbox" name='mat136' checked={checked136} onChange={handleChange4}/>
+                <Dropdown id = 'lec102' timings = {getTimings("LEC",9)}/>
+                 <Dropdown id = 'tut102' timings = {getTimings("TUT",36)}/>
+            </label >
+            <label className='checkInput' >
+                <input  type="checkbox" name='mat136' checked={checked136} onChange={handleChange4}/>
                 Mat136
-            </label>
-            <label>
-                <input type="checkbox" name='mat137' checked={checked137} onChange={handleChange5} />
+                <Dropdown id = 'lec136' timings = {getTimings("LEC",2)}/>
+                <Dropdown id = 'tut136' timings = {getTimings("TUT",9)}/>
+            </label >
+            <label className='checkInput'>
+                <input  type="checkbox" name='mat137' checked={checked137} onChange={handleChange5} />
                 Mat137
+                <Dropdown id = 'lec137' timings = {getTimings("LEC",2)}/>
+                <Dropdown id = 'tut137' timings = {getTimings("TUT",7)}/>
             </label>
-            <label>
-                <input type="checkbox" name='mat102' checked={checked102} onChange={handleChange6}/>
+            <label className='checkInput'>
+                <input  type="checkbox" name='mat102' checked={checked102} onChange={handleChange6}/>
                 MAT102
+                <Dropdown id = 'lec102' timings = {getTimings("LEC",9)}/>
+            <Dropdown id = 'tut102' timings = {getTimings("TUT",36)}/>
             </label>
-            <label>
+            <label className='checkInput'>
                 <input type="checkbox" name='sta107' checked={checked107} onChange={handleChange7}/>
-                STA107
+                STA107  
+                <Dropdown id = 'lec107' timings = {getTimings("LEC",4)}/>
+                <Dropdown id = 'tut107' value = {null} timings = {getTimings("TUT",16)}/>
             </label>
 
             <hr></hr>
@@ -227,6 +294,8 @@ function Userform() {
                     Friday
                 </label>
 
+
+            
             </div>
             <br></br>
             <label>
@@ -244,7 +313,29 @@ function Userform() {
 
     </div>
   )
+
+
+}
+
+function Dropdown(props) {
+  const [selectedOption, setSelectedOption] = useState(null);
+
+  
+  return (
+    <div>
+      
+      {/* //<label>Select a number: </label> */}
+      <select value={selectedOption} onChange={e => {
+        setSelectedOption(e.target.value)}}>
+        {props.timings.map(num => (
+          <option key={num} value={num}>
+            {num}
+          </option>
+        ))}
+      </select>
+    </div>
+  );
 }
 
 
-export default Userform
+export default Userform;
