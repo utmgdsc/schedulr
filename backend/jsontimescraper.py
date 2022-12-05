@@ -68,8 +68,10 @@ for course in json_data:
             end_time = end_time.strftime('%H:%M')
             
             day = day_converter(time['day'])
+            #convert start time so it goes from 12:00 to 1200
+            start_time = start_time.replace(':', '')
             
-            all_data.append([course['code'], course['code'] + ':'+ lec['section']+ ':' + time['day'].lower(), day, duration_in_m, start_time])
+            all_data.append([course['code'][:-2], course['code'][:-2] + ':'+ lec['section']+ ':' + time['day'].lower(), day, duration_in_m, start_time])
     for tut in course['tut']:
         for time in tut['times']:
             start_time = time['time'].split('-')[0].strip()
@@ -81,8 +83,9 @@ for course in json_data:
             start_time = start_time.strftime('%H:%M')
             end_time = end_time.strftime('%H:%M')
             day = day_converter(time['day'])
+            start_time = start_time.replace(':', '')
             
-            all_data.append([course['code'], course['code'] + ':'+ tut['section']+ ':' + time['day'].lower(), day, duration_in_m, start_time])
+            all_data.append([course['code'][:-2], course['code'][:-2] + ':'+ tut['section']+ ':' + time['day'].lower(), day, duration_in_m, start_time])
 
 print(all_data)
 

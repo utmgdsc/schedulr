@@ -4,6 +4,7 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import "./calendar.css"
 import React, {useState, useEffect, useContext} from 'react'
 
+import { list1, list2, list3 } from './temp';
 import AuthContext from '../context/AuthContext';
 
 const Calendar2 = () => {
@@ -25,7 +26,8 @@ const Calendar2 = () => {
             weekends={false}
             allDaySlot={false}
             slotDuration={"01:00:00"}
-            events={events}
+            events= {events}
+            //events={list3}
             // events = {[
             //   {date: "2022-11-30",
             //    title: "event 1",
