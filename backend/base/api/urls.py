@@ -17,4 +17,5 @@ urlpatterns = [
     path('register/', views.RegisterView.as_view(), name='register'),
      path('events/', views.getEvents, name='events'),
      path('inputCourse/', views.TstudenCourseView.as_view(), name='inputCourse'),
+     path('inputPreference/', views.TstudentPreferenceView.as_view(), name='inputPreference'),
 ]

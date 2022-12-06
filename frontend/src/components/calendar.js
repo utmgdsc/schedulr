@@ -23,7 +23,7 @@ const Calendar2 = () => {
             initialView="timeGridWeek"
             slotMinTime={'08:00'}
             slotMaxTime= {'20:00'}
-            weekends={false}
+            weekends={true}
             allDaySlot={false}
             slotDuration={"01:00:00"}
             events= {events}

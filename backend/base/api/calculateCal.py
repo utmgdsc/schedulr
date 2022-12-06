@@ -338,3 +338,4 @@ def generate_events(student_name: str) -> list:
     merged_calendar = merge_fall_and_winter(fall_calendar, winter_calendar)
     merged_calendar_list = convert_fall_calender_to_dict_list(merged_calendar)
     return merged_calendar_list
+

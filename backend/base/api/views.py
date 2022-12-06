@@ -10,8 +10,8 @@ from rest_framework_simplejwt.views import TokenObtainPairView
 
 from .serializers import NoteSerializer
 from base.models import Note
-from base.models import Tcourse, Tstudentcourse
-from .serializers import CourseSerializer
+from base.models import Tcourse, Tstudentcourse, Tstudent
+from .serializers import CourseSerializer, PreferenceSerializer
 from .calculateCal import generate_events
 # import mock_data.csv
 import csv
@@ -80,6 +80,10 @@ class RegisterView(generics.CreateAPIView):
     serializer_class = RegisterSerializer
     
     
+class TstudentPreferenceView(generics.CreateAPIView):
+    queryset = Tstudent.objects.all()
+    permission_classes = (AllowAny,)
+    serializer_class = PreferenceSerializer
 class TstudenCourseView(generics.CreateAPIView):
     queryset = Tstudentcourse.objects.all()
     permission_classes = (AllowAny,)
