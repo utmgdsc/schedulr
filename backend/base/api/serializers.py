@@ -49,8 +49,34 @@ class RegisterSerializer(ModelSerializer):
         user.save()
 
         return user
+    
+class PreferenceSerializer(ModelSerializer):
+    
+    custom_field = serializers.CharField(write_only=True, required=True)
+    
+    class Meta:
+        model = Tstudent
+        fields = ['custom_field', 'student_max_studytime',"student_time_pref",'student_max_timeblock']
 
-
+    def validate(self, attrs):
+        #convert custom field to student object
+        attrs['student_id'] = User.objects.get(username=attrs['custom_field'])
+        return attrs
+    
+    def create(self, validated_data):
+        print("create ran on " + str(validated_data))
+        
+        tstudent = Tstudent.objects.create(
+            student_id=validated_data['student_id'],
+            student_max_studytime=validated_data['student_max_studytime'],
+            student_time_pref=validated_data['student_time_pref'],
+            student_max_timeblock=validated_data['student_max_timeblock'])
+    
+        tstudent.save()
+        return tstudent
+        
+       
+                
 class CourseSerializer(ModelSerializer):
     
     #add a custom field which takes a string input
@@ -60,7 +86,7 @@ class CourseSerializer(ModelSerializer):
     class Meta:
         model = Tstudentcourse
         #fields will accept custom field and all fields from Tstudentcourse
-        fields = ['custom_field', 'course']
+        fields = ['custom_field', 'course', 'course_lec', 'course_tut']
     
     def validate(self, attrs):
         #convert custom field to student object
@@ -75,6 +101,8 @@ class CourseSerializer(ModelSerializer):
             tstudentcourse = Tstudentcourse.objects.create(
                 student=validated_data['student'],
                 course=validated_data['course'],
+                course_lec=validated_data['course_lec'],
+                course_tut=validated_data['course_tut'],
             )
             
             tstudentcourse.save()

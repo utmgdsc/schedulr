@@ -37,6 +37,7 @@ class Tschedule(models.Model):
     schedule_id = models.BigAutoField(primary_key=True)
     student = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
     schedule_generation_reason = models.IntegerField(blank=True, null=True)
+    
 
     
 class Tstudent(models.Model):
@@ -55,6 +56,8 @@ class Tstudentcourse(models.Model):
     student_course_id = models.BigAutoField(primary_key=True)
     student = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
     course = models.CharField(max_length=6, blank=False, null=True)
+    course_lec = models.CharField(max_length=10, blank=False,null=True )
+    course_tut =  models.CharField(max_length=10, blank=False,null=True )
 
  
 class Tpersonalevent(models.Model):

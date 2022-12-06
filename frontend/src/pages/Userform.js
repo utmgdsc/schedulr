@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 function Userform() {
 
     const navigate = useNavigate();
-    let {input108, input148, input135, input136, input102, input107} = useContext(AuthContext);
+    let {input108, input148, input135, input136, input102, input107, setPreference} = useContext(AuthContext);
     
     const [checked108, setChecked1] = React.useState(false);
     const [checked148, setChecked2] = React.useState(false);
@@ -49,39 +49,75 @@ function Userform() {
     const lec107 = useRef("");
     const tut107 = useRef("");
     
-    let selection108 = lec108.current.value;
+    //let selection108 = lec108.current.value;
 
     
 
     
     const handleSubmit = (e) =>  {
         e.preventDefault();
+        const lec108value = lec108.current.value;
+        const tut108value = tut108.current.value;
+        const lec148value = lec148.current.value;
+        const tut148value = tut148.current.value;
+        const lec102value = lec102.current.value;
+        const tut102value = tut102.current.value;
+        const lec135value = lec135.current.value;
+        const tut135value = tut135.current.value;
+        const lec136value = lec136.current.value;
+        const tut136value = tut136.current.value;
+        const lec107value = lec107.current.value;
+        const tut107value = tut107.current.value;
+
+        //the variable time pref will be 0, 1 or 2, based on whether morning, afternoon or evening is selected
+        let timePref = 0;
+        if (morning) {
+            timePref = 0;
+        }
+        if (afternoon) {
+            timePref = 1;
+        }
+        if (evening) {
+            timePref = 2;
+        }
+
+        setPreference(timePref, maxTime, contTime);
+
         if (checked108) {
             console.log('CSC108')
-            input108();
+            console.log('this is my value for 108', lec108value)
+            console.log('this is my value for 108', tut108value)
+
+            input108(lec108value, tut108value);
         }
         if (checked148) {
             console.log('CSC148')
-            input148();
+
+            input148(lec148value, tut148value);
         }
         if (checked135) {
             console.log('MAT135')
-            input135();
+
+            input135(lec135value, tut135value);
         }
         if (checked136) {
             console.log('MAT136')
-            input136();
+
+            input136(lec136value, tut136value);
         }
         if (checked137) {
             console.log('MAT137')
         }
         if (checked102) {
             console.log('MAT102')
-            input102();
+
+            input102(lec102value, tut102value);
         }
         if (checked107) {
             console.log('STA107')
-            input107();
+
+            
+            input107(lec107value, tut107value);
         }
         navigate('/');
       }
@@ -311,7 +347,7 @@ function Userform() {
 
 
 function Dropdown(props) {
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState('');
 
   
   return (
