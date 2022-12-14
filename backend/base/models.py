@@ -57,7 +57,7 @@ class Tstudentcourse(models.Model):
     student = models.ForeignKey(User, on_delete=models.CASCADE, null = True)
     course = models.CharField(max_length=6, blank=False, null=True)
     course_lec = models.CharField(max_length=10, blank=False,null=True )
-    course_tut =  models.CharField(max_length=10, blank=False,null=True )
+    course_tut = models.CharField(max_length=10, blank=False,null=True )
 
  
 class Tpersonalevent(models.Model):
