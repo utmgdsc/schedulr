@@ -292,39 +292,11 @@ function Userform() {
             <label>What is the maximum amount of hours that you want to study continuously?</label>
             <br></br>
             <label>
-                <input type="number" name='contstudy' value={contTime} min={1} max={4} onChange={contTimeChange} ></input>
+                <input type="number" name='contstudy' value={contTime} min={1} max={4} onChange={contTimeChange}  placeholder='eg: 3'></input>
             </label>
 
             <hr></hr>
-            <label>What days do you not want to study?</label>
-            <br></br>
-
-            <div className='study-days'>
-                <label>
-                    <input type="checkbox" name='monStudy' checked={monStudy} onChange={monStudyChange} />
-                    Monday
-                </label>
-                <label>
-                    <input type="checkbox" name='tueStudy' checked={tueStudy} onChange={tueStudyChange}/>
-                    Tuesday
-                </label>
-                <label>
-                    <input type="checkbox" name='wedStudy' checked={wedStudy} onChange={wedStudyChange} />
-                    Wednesday
-                </label>
-                <label>
-                    <input type="checkbox" name='thuStudy' checked={thurStudy} onChange={thurStudyChange}/>
-                    Thursday
-                </label>
-                <label>
-                    <input type="checkbox" name='friStudy' checked={friStudy} onChange={friStudyChange}/>
-                    Friday
-                </label>
-
-
-            
-            </div>
-            <br></br>
+ 
             <label>
             <input type="submit" value="Submit"/>
 
