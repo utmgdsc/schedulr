@@ -74,6 +74,7 @@ export const AuthProvider = ({children}) => {
         console.log("hey");
         console.log(authTokens.access + " yeahhh");
         if (respone.status === 200){
+            console.log("success of getting events");
             setEvents(data);
             
             console.log(data);

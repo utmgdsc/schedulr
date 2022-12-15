@@ -31,11 +31,7 @@ dotenv_path = Path(BASE_DIR, '.env')
 dotenv.load_dotenv(dotenv_path=dotenv_path)
 
 SECRET_KEY = dotenv.get_key(dotenv_path, 'SECRET_KEY')
-azure_password = dotenv.get_key(dotenv_path, 'AZURE_PASS')
-azure_user = dotenv.get_key(dotenv_path, 'AZURE_USER')
-azure_name = dotenv.get_key(dotenv_path, 'AZURE_NAME')
-azure_port = dotenv.get_key(dotenv_path, 'AZURE_PORT')
-azure_host = dotenv.get_key(dotenv_path, 'AZURE_HOST')
+
 #password for razee: TestingPassword123
 
 # SECURITY WARNING: don't run with debug turned on in production!

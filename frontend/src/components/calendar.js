@@ -9,7 +9,7 @@ import AuthContext from '../context/AuthContext';
 
 const Calendar2 = () => {
    // calendarRef = React.useRef()
-    let {events} = useContext(AuthContext);
+    let {events, getEvents} = useContext(AuthContext);
     console.log("this is events")
     console.log(events)
 
@@ -17,6 +17,9 @@ const Calendar2 = () => {
   return (
     <div className="calendar">
 
+<button onClick={getEvents}>
+      Generate
+    </button>;
             <FullCalendar
             plugins={[ timeGridPlugin, dayGridPlugin ]}
             //ref= {calendarRef}

@@ -251,7 +251,53 @@ def get_event_end_time(event: list) -> int:
 
 def get_event_days(event: list) -> str:
     return event[3].strip()
+def convert_to_json(input_calendar: dict) -> list:
+    final_list = []
+    for date in input_calendar:
+        for hour in range(0, 24):
+            if input_calendar[date][hour] is not None and isinstance(input_calendar[date][hour], Timeslot):
+                final_list.append({
+                    "title": input_calendar[date][hour].name,
+                    "date": str(date),
+                    "display": "block",
+                    "start": str(date) + "T" + str(hour) + ":00:00",
+                    "end": str(date) + "T" + str(hour + 1) + ":00:00"
+                })
+            elif input_calendar[date][hour] is not None and not isinstance(input_calendar[date][hour], Timeslot):
+                final_list.append({
+                    "title": input_calendar[date][hour],
+                    "date": str(date),
+                    "display": "block",
+                    "start": str(date) + "T" + str(hour) + ":00:00",
+                    "end": str(date) + "T" + str(hour + 1) + ":00:00"
+                })
+    return final_list
 
+def convert_winter_calender_to_dict_list(winter_calender: dict) -> list:
+    final_list = []
+    # for month in winter_calender:
+    #     for date in winter_calender[month]:
+    #         for hour in range(0, 24):
+    #             if winter_calender[month][date][hour] is not None:
+    #                 final_list.append({
+    #                     "title": winter_calender[month][date][hour],
+    #                     "date": str(date),
+    #                     "display": "block",
+    #                     "start": str(date) + "T" + str(hour) + ":00:00",
+    #                     "end": str(date) + "T" + str(hour + 1) + ":00:00"
+    #                 })
+    # return final_list
+    for date in winter_calender:
+        for hour in range(0, 24):
+            if winter_calender[date][hour] is not None:
+                final_list.append({
+                    "title": winter_calender[date][hour],
+                    "date": str(date),
+                    "display": "block",
+                    "start": str(date) + "T" + str(hour) + ":00:00",
+                    "end": str(date) + "T" + str(hour + 1) + ":00:00"
+                })
+    return final_list
 
 def generate_events(student_name: str) -> list:
     student_courses = get_student_courses(student_name)
@@ -263,9 +309,12 @@ def generate_events(student_name: str) -> list:
     lectures_for_fall = get_lectures_for_fall(lecture_events)
     fall_calendar = populate_fall_calendar_with_fall_lectures(lectures_for_fall)
     assignments_for_fall = get_assignment_list_for_fall(assignment_object_list)
+    
     a = generate_schedule(assignments_for_fall, fall_calendar, student_pref[0], student_pref[1], student_pref[2])
     lectures_for_winter = get_lectures_for_winter(lecture_events)
     winter_calendar = populate_winter_calendar_with_winter_lectures(lectures_for_winter)
     assignments_for_winter = get_assignment_list_for_winter(assignment_object_list)
     b = generate_schedule(assignments_for_winter, winter_calendar, student_pref[0], student_pref[1], student_pref[2])
+    print("-----------------------generation done!!! :D -------------")
     return merge_fall_list_and_winter_list(a, b)
+    #return convert_winter_calender_to_dict_list(fall_calendar)

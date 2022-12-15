@@ -14,6 +14,7 @@ const HomePage = () => {
   let {authTokens, logoutUser, user, getEvents } = useContext(AuthContext);
 
   useEffect(() => {
+    console.log("this useEffect is running now")
   getNotes();
   getEvents();
   }, [])

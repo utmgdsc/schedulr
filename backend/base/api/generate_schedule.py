@@ -90,12 +90,32 @@ def _resolve_schedule_conflicts(ags: list[Assignment], hours_free: dict, schedul
     return final_schedule
 
 
+# def _find_optimal_schedule(schedule_ags: dict, free_slots: dict) -> dict:
+#     already_scheduled_ags = []
+
+#     for day in free_slots.keys():
+#         for slot in free_slots[day]:
+#             highest_priority = None
+#             #check if a is a none type
+                
+#             for a in free_slots[day][slot]:
+#                 if (a is not None):
+#                     print('this is my A ', a.name)
+#                     if a.ROI > highest_priority.ROI and a not in already_scheduled_ags:
+#                         highest_priority = a
+#             if highest_priority is not None:
+#                 schedule_ags[day].append(highest_priority)
+#                 already_scheduled_ags.append(highest_priority)
+
+#     return schedule_ags
 def _find_optimal_schedule(schedule_ags: dict, free_slots: dict) -> dict:
     already_scheduled_ags = []
 
     for day in free_slots.keys():
         for slot in free_slots[day]:
             highest_priority = None
+            if len(free_slots[day][slot]) > 0:
+                highest_priority = free_slots[day][slot][0]
             for a in free_slots[day][slot]:
                 if a.ROI > highest_priority.ROI and a not in already_scheduled_ags:
                     highest_priority = a
@@ -104,6 +124,7 @@ def _find_optimal_schedule(schedule_ags: dict, free_slots: dict) -> dict:
                 already_scheduled_ags.append(highest_priority)
 
     return schedule_ags
+
 
 
 def _schedule_hourly(days: dict, day_schedule: dict, study_time_pref: int, max_timeblock: int) -> dict:
