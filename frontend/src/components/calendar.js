@@ -19,7 +19,7 @@ const Calendar2 = () => {
 
 <button onClick={getEvents}>
       Generate
-    </button>;
+    </button>
             <FullCalendar
             plugins={[ timeGridPlugin, dayGridPlugin ]}
             //ref= {calendarRef}
