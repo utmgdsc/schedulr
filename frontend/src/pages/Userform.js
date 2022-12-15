@@ -232,13 +232,13 @@ function Userform() {
             </label>
             <label className='checkInput'>
                 <input  type="checkbox" name='mat135' checked={checked135} onChange={handleChange3} />
-                Mat135
+                MAT135
                 <Dropdown id = 'lec135' reference={lec135} timings = {getTimings("LEC",9)}/>
                 <Dropdown id = 'tut135' reference={tut135} timings = {getTimings("TUT",36)}/>
             </label >
             <label className='checkInput' >
                 <input  type="checkbox" name='mat136' checked={checked136} onChange={handleChange4}/>
-                Mat136
+                MAT136
                 <Dropdown id = 'lec136' reference={lec136} timings = {getTimings("LEC",2)}/>
                 <Dropdown id = 'tut136' reference={tut136} timings = {getTimings("TUT",9)}/>
             </label >
